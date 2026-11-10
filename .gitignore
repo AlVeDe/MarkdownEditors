@@ -1,0 +1,8 @@
+.DS_Store
+.build/
+dist/
+xcuserdata/
+.claude/settings.local.json
+# Xcode archive exports
+src/*/MarkdownDemo 20*/
+.claude/worktrees/

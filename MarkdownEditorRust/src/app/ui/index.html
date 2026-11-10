@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MarkdownEditor</title>
+<script>
+  // Platform class before first paint: macOS gets the unified title bar
+  // (room for the traffic lights). The init payload confirms it later.
+  document.documentElement.dataset.platform = /Mac/.test(navigator.platform || navigator.userAgent) ? 'macos'
+    : /Win/.test(navigator.platform || navigator.userAgent) ? 'windows' : 'linux';
+</script>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body class="preload">
+
+<!-- Symbols: drawn on a 20×20 grid in the manner of SF Symbols (regular
+     weight, round caps and joins, optically centered). -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-sidebar" viewBox="0 0 20 20"><rect x="2.25" y="3.75" width="15.5" height="12.5" rx="3"/><path d="M7.5 3.75v12.5M4.4 6.9h1.2M4.4 9.2h1.2M4.4 11.5h1.2"/></symbol>
+    <symbol id="i-chevron-down" viewBox="0 0 20 20"><path d="m5.5 8 4.5 4.5L14.5 8"/></symbol>
+    <symbol id="i-chevron-up" viewBox="0 0 20 20"><path d="m5.5 12 4.5-4.5 4.5 4.5"/></symbol>
+    <symbol id="i-chevron-right" viewBox="0 0 20 20"><path d="m8 5.5 4.5 4.5L8 14.5"/></symbol>
+    <symbol id="i-checkmark" viewBox="0 0 20 20"><path d="m4.5 10.5 3.5 3.5 7.5-8"/></symbol>
+    <symbol id="i-textformat" viewBox="0 0 20 20"><path d="m2.25 15.5 4.5-11 4.5 11M3.9 11.6h5.7"/><path d="M13 11.4c.5-.6 1.2-.9 2-.9 1.3 0 2 .7 2 2v3M17 13.3c-.9-.3-4.3-.4-4.3 1.3 0 .6.5 1 1.3 1 1.5 0 3-.9 3-2.3"/></symbol>
+    <symbol id="i-bold" viewBox="0 0 20 20"><path stroke-width="2" d="M6 4.25h4.6a2.9 2.9 0 0 1 0 5.8H6zM6 10.05h5.3a2.85 2.85 0 0 1 0 5.7H6z"/></symbol>
+    <symbol id="i-italic" viewBox="0 0 20 20"><path d="M9 4.25h6M5 15.75h6M12.4 4.25l-4.8 11.5"/></symbol>
+    <symbol id="i-strikethrough" viewBox="0 0 20 20"><path d="M14.1 6.4C13.6 5 12.2 4.1 10.1 4.1 7.6 4.1 6 5.3 6 7c0 1.1.6 1.9 1.8 2.4M3 10.25h14M6 13.6c.5 1.4 2 2.3 4.1 2.3 2.6 0 4.2-1.2 4.2-2.9 0-.5-.1-.9-.4-1.3"/></symbol>
+    <symbol id="i-highlighter" viewBox="0 0 20 20"><path d="m11.9 3.4 4.7 4.7-6.9 6.9H5v-4.7z"/><path d="m9.6 5.7 4.7 4.7M5 15l-1.5 1.5"/><path class="accent-stroke" stroke-width="2" d="M8.5 17h8.25"/></symbol>
+    <symbol id="i-subscript" viewBox="0 0 20 20"><path d="m3 5 7 8.5M10 5l-7 8.5"/><path stroke-width="1.35" d="M12.8 12.6c.3-.8 2.7-.9 2.7.5 0 1-2.7 2-2.7 3.4h2.9"/></symbol>
+    <symbol id="i-superscript" viewBox="0 0 20 20"><path d="m3 7 7 8.5M10 7l-7 8.5"/><path stroke-width="1.35" d="M12.8 4.1c.3-.8 2.7-.9 2.7.5 0 1-2.7 2-2.7 3.4h2.9"/></symbol>
+    <symbol id="i-code" viewBox="0 0 20 20"><path d="M6.5 6 2.5 10l4 4M13.5 6l4 4-4 4M11.6 4.25l-3.2 11.5"/></symbol>
+    <symbol id="i-link" viewBox="0 0 20 20"><path d="M8.6 11.4a3.1 3.1 0 0 0 4.4 0l2.7-2.7a3.1 3.1 0 1 0-4.4-4.4l-1.2 1.2M11.4 8.6a3.1 3.1 0 0 0-4.4 0l-2.7 2.7a3.1 3.1 0 1 0 4.4 4.4l1.2-1.2"/></symbol>
+    <symbol id="i-photo" viewBox="0 0 20 20"><rect x="2.25" y="3.75" width="15.5" height="12.5" rx="2.75"/><circle cx="7" cy="8" r="1.4"/><path d="m2.6 14.3 4.1-3.6 3.1 2.6 2.7-2.3 4.9 4.2"/></symbol>
+    <symbol id="i-footnote" viewBox="0 0 20 20"><path d="M3 8h8.5M3 11.75h11M3 15.5h7"/><path stroke-width="1.35" d="m14.6 4.2 1.4-1v5.3"/></symbol>
+    <symbol id="i-quote" viewBox="0 0 20 20"><path stroke-width="2.2" d="M4 4.5v11"/><path d="M8 6h8.5M8 10h8.5M8 14h5.5"/></symbol>
+    <symbol id="i-list-bullet" viewBox="0 0 20 20"><circle class="fill" cx="3.9" cy="5.5" r="1.05"/><circle class="fill" cx="3.9" cy="10" r="1.05"/><circle class="fill" cx="3.9" cy="14.5" r="1.05"/><path d="M7.5 5.5h9.5M7.5 10h9.5M7.5 14.5h9.5"/></symbol>
+    <symbol id="i-list-number" viewBox="0 0 20 20"><path d="M7.5 5.5h9.5M7.5 10h9.5M7.5 14.5h9.5"/><path stroke-width="1.2" d="M2.8 4.3l1-.6v3.1M2.6 9.1c.2-.6 1.9-.6 1.9.3 0 .7-1.9 1.3-1.9 2.2h2M2.6 13.4h1.9l-1 1.1c.6-.1 1.1.3 1.1.8 0 .9-1.5 1.1-2 .4"/></symbol>
+    <symbol id="i-checklist" viewBox="0 0 20 20"><path d="m2.5 5.6 1.4 1.4 2.6-2.8"/><rect x="2.5" y="12" width="4" height="4" rx="1.1"/><path d="M9.5 5.75h7.5M9.5 14h7.5"/></symbol>
+    <symbol id="i-indent" viewBox="0 0 20 20"><path d="M3 4.5h14M9 8.2h8M9 11.8h8M3 15.5h14M3 7.8l2.6 2.2L3 12.2"/></symbol>
+    <symbol id="i-outdent" viewBox="0 0 20 20"><path d="M3 4.5h14M9 8.2h8M9 11.8h8M3 15.5h14M5.6 7.8 3 10l2.6 2.2"/></symbol>
+    <symbol id="i-curlybraces" viewBox="0 0 20 20"><path d="M7 3.5c-1.6 0-2.2.7-2.2 2.2V7.4c0 1.2-.6 2.1-1.8 2.6 1.2.5 1.8 1.4 1.8 2.6v1.7c0 1.5.6 2.2 2.2 2.2M13 3.5c1.6 0 2.2.7 2.2 2.2V7.4c0 1.2.6 2.1 1.8 2.6-1.2.5-1.8 1.4-1.8 2.6v1.7c0 1.5-.6 2.2-2.2 2.2"/></symbol>
+    <symbol id="i-table" viewBox="0 0 20 20"><rect x="2.25" y="3.75" width="15.5" height="12.5" rx="2.5"/><path d="M2.25 8h15.5M2.25 12.1h15.5M7.4 8v8.25M12.6 8v8.25"/></symbol>
+    <symbol id="i-rule" viewBox="0 0 20 20"><path opacity=".45" d="M4.5 5h11M4.5 15h11"/><path d="M2.5 10h15"/></symbol>
+    <symbol id="i-function" viewBox="0 0 20 20"><path d="M10.4 4.1c-1.5-.5-2.8.2-3.1 1.9L5.7 14.2c-.3 1.6-1.4 2.2-2.9 1.8M4.6 8.6h5"/><path d="m12 8.5 4.6 6M16.6 8.5 12 14.5"/></symbol>
+    <symbol id="i-diagram" viewBox="0 0 20 20"><rect x="2.25" y="2.75" width="6.5" height="4.75" rx="1.4"/><rect x="11.25" y="12.5" width="6.5" height="4.75" rx="1.4"/><path d="M5.5 7.5v3.6c0 .8.6 1.4 1.4 1.4h4.3"/></symbol>
+    <symbol id="i-ellipsis" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7.75"/><circle class="fill" cx="6.5" cy="10" r=".95"/><circle class="fill" cx="10" cy="10" r=".95"/><circle class="fill" cx="13.5" cy="10" r=".95"/></symbol>
+    <symbol id="i-doc-text" viewBox="0 0 20 20"><path d="M11.5 2.5H6.2c-1.2 0-1.95.75-1.95 2v11c0 1.25.75 2 1.95 2h7.6c1.2 0 1.95-.75 1.95-2V6.75z"/><path d="M11.5 2.5v2.8c0 .9.55 1.45 1.45 1.45h2.8M7.25 10h5.5M7.25 13h4"/></symbol>
+    <symbol id="i-split" viewBox="0 0 20 20"><rect x="2.25" y="3.75" width="15.5" height="12.5" rx="3"/><path d="M10 3.75v12.5"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 20 20"><path d="M1.75 10S4.6 4.5 10 4.5s8.25 5.5 8.25 5.5S15.4 15.5 10 15.5 1.75 10 1.75 10z"/><circle cx="10" cy="10" r="2.6"/></symbol>
+    <symbol id="i-share" viewBox="0 0 20 20"><path d="M10 2.6v9.8M6.9 5.6 10 2.6l3.1 3"/><path d="M7.2 8H6c-1.2 0-1.9.7-1.9 1.9v5.6c0 1.2.7 1.9 1.9 1.9h8c1.2 0 1.9-.7 1.9-1.9V9.9c0-1.2-.7-1.9-1.9-1.9h-1.2"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 20 20"><path d="M2.25 6.2V14c0 1.4.8 2.25 2.2 2.25h11.1c1.4 0 2.2-.85 2.2-2.25V8.3c0-1.4-.8-2.2-2.2-2.2H9.9L8.3 4.25H4.45c-1.4 0-2.2.75-2.2 1.95z"/><path d="M2.25 8.6h15.5"/></symbol>
+    <symbol id="i-save" viewBox="0 0 20 20"><path d="M10 2.75v9.7M6.9 9.4l3.1 3.1 3.1-3.1"/><path d="M7.2 6.4H6c-1.2 0-1.9.7-1.9 1.9v7.2c0 1.2.7 1.9 1.9 1.9h8c1.2 0 1.9-.7 1.9-1.9V8.3c0-1.2-.7-1.9-1.9-1.9h-1.2"/></symbol>
+    <symbol id="i-doc-badge" viewBox="0 0 20 20"><path d="M11.5 2.5H6.2c-1.2 0-1.95.75-1.95 2v11c0 1.25.75 2 1.95 2h7.6c1.2 0 1.95-.75 1.95-2V6.75z"/><path d="M11.5 2.5v2.8c0 .9.55 1.45 1.45 1.45h2.8"/><path stroke-width="1.3" d="M7 14.2v-3.4h1.1a1 1 0 0 1 0 2H7M10.4 14.2v-3.4h.6c1 0 1.6.6 1.6 1.7s-.6 1.7-1.6 1.7z"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7.75"/><path d="M2.25 10h15.5M10 2.25c-2 2.1-3 4.7-3 7.75s1 5.65 3 7.75c2-2.1 3-4.7 3-7.75s-1-5.65-3-7.75z"/></symbol>
+    <symbol id="i-printer" viewBox="0 0 20 20"><path d="M5.75 7V3.5c0-.5.3-.75.75-.75h7c.45 0 .75.25.75.75V7M5.75 14H4.2c-1.2 0-1.95-.7-1.95-1.9V8.9C2.25 7.7 3 7 4.2 7h11.6c1.2 0 1.95.7 1.95 1.9v3.2c0 1.2-.75 1.9-1.95 1.9h-1.55"/><rect x="5.75" y="11" width="8.5" height="6.25" rx="1"/></symbol>
+    <symbol id="i-magnifier" viewBox="0 0 20 20"><circle cx="8.6" cy="8.6" r="5.6"/><path d="m12.7 12.7 4.3 4.3"/></symbol>
+    <symbol id="i-xmark-fill" viewBox="0 0 20 20"><circle class="fill" cx="10" cy="10" r="7.25" stroke="none"/><path class="knockout" stroke-width="1.6" d="m7.4 7.4 5.2 5.2M12.6 7.4l-5.2 5.2"/></symbol>
+    <symbol id="i-warning" viewBox="0 0 20 20"><path d="M8.6 3.6c.6-1.1 2.2-1.1 2.8 0l6 10.6c.6 1.1-.2 2.4-1.4 2.4H4c-1.2 0-2-1.3-1.4-2.4z"/><path d="M10 7.8v3.6"/><circle class="fill" cx="10" cy="13.9" r=".9" stroke="none"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 20 20"><circle cx="10" cy="10" r="2.6"/><path d="M8.6 2.6h2.8l.4 2 1.4.8 1.9-.7 1.4 2.4-1.5 1.4v1.6l1.5 1.4-1.4 2.4-1.9-.7-1.4.8-.4 2H8.6l-.4-2-1.4-.8-1.9.7-1.4-2.4L5 10.8V9.2L3.5 7.8l1.4-2.4 1.9.7 1.4-.8z"/></symbol>
+  </defs>
+</svg>
+
+<header id="toolbar" data-tauri-drag-region="deep">
+  <div class="tb-lead">
+    <button class="tb" id="tb-outline" data-cmd="toggle_outline" data-tip="Outline" data-key="Ctrl+Cmd+S|Ctrl+Alt+S"><svg class="sym"><use href="#i-sidebar"/></svg></button>
+    <button class="doc-title" id="doc-title" data-menu="document" title="Document">
+      <span class="name" id="doc-name">Untitled</span>
+      <span class="edited" id="doc-edited" hidden>Edited</span>
+      <svg class="sym chev"><use href="#i-chevron-down"/></svg>
+    </button>
+  </div>
+
+  <div class="tb-center" id="format-tools">
+    <div class="tb-group capsule" data-priority="3">
+      <button class="tb" data-cmd="open" data-tip="Open…" data-key="Mod+O"><svg class="sym"><use href="#i-folder"/></svg></button>
+      <button class="tb" data-cmd="save" data-tip="Save" data-key="Mod+S"><svg class="sym"><use href="#i-save"/></svg></button>
+      <button class="tb" data-cmd="export_pdf" data-tip="Export as PDF…" data-key="Alt+Mod+E"><svg class="sym"><use href="#i-doc-badge"/></svg></button>
+    </div>
+    <div class="tb-group" data-priority="2">
+      <button class="tb dd" data-menu="heading" data-tip="Paragraph Style"><svg class="sym"><use href="#i-textformat"/></svg></button>
+    </div>
+    <div class="tb-group capsule" data-priority="1">
+      <button class="tb" data-cmd="fmt:bold" data-tip="Bold" data-key="Mod+B"><svg class="sym"><use href="#i-bold"/></svg></button>
+      <button class="tb" data-cmd="fmt:italic" data-tip="Italic" data-key="Mod+I"><svg class="sym"><use href="#i-italic"/></svg></button>
+      <button class="tb" data-cmd="fmt:strikethrough" data-tip="Strikethrough" data-key="Shift+Mod+X"><svg class="sym"><use href="#i-strikethrough"/></svg></button>
+      <button class="tb" data-cmd="fmt:highlight" data-tip="Highlight" data-key="Shift+Mod+H"><svg class="sym"><use href="#i-highlighter"/></svg></button>
+      <button class="tb" data-cmd="fmt:inlineCode" data-tip="Inline Code" data-key="Ctrl+`"><svg class="sym"><use href="#i-code"/></svg></button>
+    </div>
+    <div class="tb-group capsule" data-priority="5">
+      <button class="tb" data-cmd="fmt:link" data-tip="Link" data-key="Mod+K"><svg class="sym"><use href="#i-link"/></svg></button>
+      <button class="tb" data-cmd="fmt:image" data-tip="Image"><svg class="sym"><use href="#i-photo"/></svg></button>
+      <button class="tb" data-cmd="fmt:footnote" data-tip="Footnote"><svg class="sym"><use href="#i-footnote"/></svg></button>
+    </div>
+    <div class="tb-group capsule" data-priority="4">
+      <button class="tb" data-cmd="fmt:bulletList" data-tip="Bulleted List" data-key="Shift+Mod+8"><svg class="sym"><use href="#i-list-bullet"/></svg></button>
+      <button class="tb" data-cmd="fmt:numberedList" data-tip="Numbered List" data-key="Shift+Mod+7"><svg class="sym"><use href="#i-list-number"/></svg></button>
+      <button class="tb" data-cmd="fmt:taskList" data-tip="Task List" data-key="Shift+Mod+9"><svg class="sym"><use href="#i-checklist"/></svg></button>
+      <button class="tb" data-cmd="fmt:quote" data-tip="Quote" data-key="Alt+Mod+'"><svg class="sym"><use href="#i-quote"/></svg></button>
+    </div>
+    <div class="tb-group capsule" data-priority="6">
+      <button class="tb dd" data-menu="code" data-tip="Code Block"><svg class="sym"><use href="#i-curlybraces"/></svg></button>
+      <button class="tb dd" data-menu="table" data-tip="Table"><svg class="sym"><use href="#i-table"/></svg></button>
+      <button class="tb dd" data-menu="math" data-tip="Math"><svg class="sym"><use href="#i-function"/></svg></button>
+      <button class="tb" data-cmd="fmt:mermaid" data-tip="Mermaid Diagram"><svg class="sym"><use href="#i-diagram"/></svg></button>
+      <button class="tb" data-cmd="fmt:horizontalRule" data-tip="Horizontal Rule"><svg class="sym"><use href="#i-rule"/></svg></button>
+    </div>
+    <div class="tb-group capsule" data-priority="7">
+      <button class="tb" data-cmd="fmt:superscriptText" data-tip="Superscript" data-key="Ctrl+Cmd+=|Ctrl+Alt+="><svg class="sym"><use href="#i-superscript"/></svg></button>
+      <button class="tb" data-cmd="fmt:subscriptText" data-tip="Subscript" data-key="Ctrl+Cmd+-|Ctrl+Alt+-"><svg class="sym"><use href="#i-subscript"/></svg></button>
+      <button class="tb" data-cmd="fmt:outdent" data-tip="Outdent" data-key="Mod+["><svg class="sym"><use href="#i-outdent"/></svg></button>
+      <button class="tb" data-cmd="fmt:indent" data-tip="Indent" data-key="Mod+]"><svg class="sym"><use href="#i-indent"/></svg></button>
+    </div>
+    <div class="tb-group" id="more-group" hidden>
+      <button class="tb" data-menu="more" data-tip="More"><svg class="sym"><use href="#i-ellipsis"/></svg></button>
+    </div>
+  </div>
+
+  <div class="tb-trail">
+    <div class="seg" role="radiogroup" aria-label="View">
+      <button class="tb" data-cmd="view:editor" data-tip="Editor Only" data-key="Alt+Mod+1"><svg class="sym"><use href="#i-doc-text"/></svg></button>
+      <button class="tb" data-cmd="view:split" data-tip="Editor and Preview" data-key="Alt+Mod+2"><svg class="sym"><use href="#i-split"/></svg></button>
+      <button class="tb" data-cmd="view:preview" data-tip="Preview Only" data-key="Alt+Mod+3"><svg class="sym"><use href="#i-eye"/></svg></button>
+    </div>
+    <button class="tb" data-menu="share" data-tip="Export"><svg class="sym"><use href="#i-share"/></svg></button>
+  </div>
+</header>
+
+<div id="main">
+  <aside id="outline" class="collapsed" aria-label="Outline">
+    <div class="sidebar-inner">
+      <h3>Outline</h3>
+      <div id="outline-list"></div>
+    </div>
+  </aside>
+  <div id="panes" class="mode-split">
+    <div id="editor-pane">
+      <div id="editor" class="numbers">
+        <div id="gutter-bg"></div>
+        <div class="layer" id="rows"></div>
+        <textarea id="text" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off" wrap="soft"></textarea>
+      </div>
+      <div id="findbar" hidden>
+        <div class="fb-row">
+          <label class="search-field">
+            <svg class="sym"><use href="#i-magnifier"/></svg>
+            <input type="text" id="find-input" placeholder="Find" />
+            <span class="count" id="find-count"></span>
+          </label>
+          <div class="fb-toggles">
+            <button class="tb small" id="find-case" title="Match Case">Aa</button>
+            <button class="tb small mono" id="find-regex" title="Regular Expression">.*</button>
+          </div>
+          <div class="seg nav">
+            <button class="tb" id="find-prev" title="Previous Match"><svg class="sym"><use href="#i-chevron-up"/></svg></button>
+            <button class="tb" id="find-next" title="Next Match"><svg class="sym"><use href="#i-chevron-down"/></svg></button>
+          </div>
+          <button class="pill" id="find-close" title="Close (Esc)">Done</button>
+        </div>
+        <div class="fb-row replace-row">
+          <label class="search-field">
+            <svg class="sym"><use href="#i-chevron-right"/></svg>
+            <input type="text" id="replace-input" placeholder="Replace" />
+          </label>
+          <button class="pill" id="replace-one">Replace</button>
+          <button class="pill" id="replace-all">All</button>
+        </div>
+      </div>
+    </div>
+    <div id="splitter"></div>
+    <div id="preview-pane">
+      <iframe id="preview" title="Preview"></iframe>
+    </div>
+  </div>
+</div>
+
+<footer id="statusbar">
+  <span class="msg" id="status-msg"></span>
+  <span class="spacer"></span>
+  <button class="pos" id="status-pos" title="Go to Line…">Ln 1, Col 1</button>
+  <span class="dot"></span>
+  <span id="status-words">0 words</span>
+  <span class="dot"></span>
+  <span id="status-chars">0 characters</span>
+</footer>
+
+<div id="tooltip" role="tooltip" hidden></div>
+<div id="completion" hidden><div class="list" id="completion-list"></div><div class="doc" id="completion-doc" hidden></div></div>
+<div id="mathpreview" hidden></div>
+<div id="print-root"></div>
+
+<script src="editor.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

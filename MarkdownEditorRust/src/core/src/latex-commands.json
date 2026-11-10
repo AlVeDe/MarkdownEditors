@@ -1,0 +1,3250 @@
+{
+ "commands": [
+  {
+   "name": "alpha",
+   "insertText": "\\alpha",
+   "category": "Greek",
+   "description": "Lowercase alpha",
+   "glyph": "α",
+   "priority": 10
+  },
+  {
+   "name": "beta",
+   "insertText": "\\beta",
+   "category": "Greek",
+   "description": "Lowercase beta",
+   "glyph": "β",
+   "priority": 10
+  },
+  {
+   "name": "gamma",
+   "insertText": "\\gamma",
+   "category": "Greek",
+   "description": "Lowercase gamma",
+   "glyph": "γ",
+   "priority": 10
+  },
+  {
+   "name": "delta",
+   "insertText": "\\delta",
+   "category": "Greek",
+   "description": "Lowercase delta",
+   "glyph": "δ",
+   "priority": 10
+  },
+  {
+   "name": "epsilon",
+   "insertText": "\\epsilon",
+   "category": "Greek",
+   "description": "Lowercase epsilon",
+   "glyph": "ϵ",
+   "priority": 10
+  },
+  {
+   "name": "varepsilon",
+   "insertText": "\\varepsilon",
+   "category": "Greek",
+   "description": "Variant lowercase epsilon",
+   "glyph": "ε"
+  },
+  {
+   "name": "zeta",
+   "insertText": "\\zeta",
+   "category": "Greek",
+   "description": "Lowercase zeta",
+   "glyph": "ζ"
+  },
+  {
+   "name": "eta",
+   "insertText": "\\eta",
+   "category": "Greek",
+   "description": "Lowercase eta",
+   "glyph": "η"
+  },
+  {
+   "name": "theta",
+   "insertText": "\\theta",
+   "category": "Greek",
+   "description": "Lowercase theta",
+   "glyph": "θ",
+   "priority": 10
+  },
+  {
+   "name": "vartheta",
+   "insertText": "\\vartheta",
+   "category": "Greek",
+   "description": "Variant lowercase theta",
+   "glyph": "ϑ"
+  },
+  {
+   "name": "iota",
+   "insertText": "\\iota",
+   "category": "Greek",
+   "description": "Lowercase iota",
+   "glyph": "ι"
+  },
+  {
+   "name": "kappa",
+   "insertText": "\\kappa",
+   "category": "Greek",
+   "description": "Lowercase kappa",
+   "glyph": "κ"
+  },
+  {
+   "name": "varkappa",
+   "insertText": "\\varkappa",
+   "category": "Greek",
+   "description": "Variant lowercase kappa",
+   "glyph": "ϰ"
+  },
+  {
+   "name": "lambda",
+   "insertText": "\\lambda",
+   "category": "Greek",
+   "description": "Lowercase lambda",
+   "glyph": "λ",
+   "priority": 10
+  },
+  {
+   "name": "mu",
+   "insertText": "\\mu",
+   "category": "Greek",
+   "description": "Lowercase mu",
+   "glyph": "μ",
+   "priority": 10
+  },
+  {
+   "name": "nu",
+   "insertText": "\\nu",
+   "category": "Greek",
+   "description": "Lowercase nu",
+   "glyph": "ν"
+  },
+  {
+   "name": "xi",
+   "insertText": "\\xi",
+   "category": "Greek",
+   "description": "Lowercase xi",
+   "glyph": "ξ"
+  },
+  {
+   "name": "pi",
+   "insertText": "\\pi",
+   "category": "Greek",
+   "description": "Lowercase pi",
+   "glyph": "π",
+   "priority": 10
+  },
+  {
+   "name": "varpi",
+   "insertText": "\\varpi",
+   "category": "Greek",
+   "description": "Variant lowercase pi",
+   "glyph": "ϖ"
+  },
+  {
+   "name": "rho",
+   "insertText": "\\rho",
+   "category": "Greek",
+   "description": "Lowercase rho",
+   "glyph": "ρ"
+  },
+  {
+   "name": "varrho",
+   "insertText": "\\varrho",
+   "category": "Greek",
+   "description": "Variant lowercase rho",
+   "glyph": "ϱ"
+  },
+  {
+   "name": "sigma",
+   "insertText": "\\sigma",
+   "category": "Greek",
+   "description": "Lowercase sigma",
+   "glyph": "σ",
+   "priority": 10
+  },
+  {
+   "name": "varsigma",
+   "insertText": "\\varsigma",
+   "category": "Greek",
+   "description": "Variant lowercase sigma",
+   "glyph": "ς"
+  },
+  {
+   "name": "tau",
+   "insertText": "\\tau",
+   "category": "Greek",
+   "description": "Lowercase tau",
+   "glyph": "τ"
+  },
+  {
+   "name": "upsilon",
+   "insertText": "\\upsilon",
+   "category": "Greek",
+   "description": "Lowercase upsilon",
+   "glyph": "υ"
+  },
+  {
+   "name": "phi",
+   "insertText": "\\phi",
+   "category": "Greek",
+   "description": "Lowercase phi",
+   "glyph": "ϕ",
+   "priority": 10
+  },
+  {
+   "name": "varphi",
+   "insertText": "\\varphi",
+   "category": "Greek",
+   "description": "Variant lowercase phi",
+   "glyph": "φ"
+  },
+  {
+   "name": "chi",
+   "insertText": "\\chi",
+   "category": "Greek",
+   "description": "Lowercase chi",
+   "glyph": "χ"
+  },
+  {
+   "name": "psi",
+   "insertText": "\\psi",
+   "category": "Greek",
+   "description": "Lowercase psi",
+   "glyph": "ψ"
+  },
+  {
+   "name": "omega",
+   "insertText": "\\omega",
+   "category": "Greek",
+   "description": "Lowercase omega",
+   "glyph": "ω",
+   "priority": 10
+  },
+  {
+   "name": "digamma",
+   "insertText": "\\digamma",
+   "category": "Greek",
+   "description": "Lowercase digamma",
+   "glyph": "ϝ"
+  },
+  {
+   "name": "Gamma",
+   "insertText": "\\Gamma",
+   "category": "Greek",
+   "description": "Uppercase Gamma",
+   "glyph": "Γ"
+  },
+  {
+   "name": "Delta",
+   "insertText": "\\Delta",
+   "category": "Greek",
+   "description": "Uppercase Delta",
+   "glyph": "Δ"
+  },
+  {
+   "name": "Theta",
+   "insertText": "\\Theta",
+   "category": "Greek",
+   "description": "Uppercase Theta",
+   "glyph": "Θ"
+  },
+  {
+   "name": "Lambda",
+   "insertText": "\\Lambda",
+   "category": "Greek",
+   "description": "Uppercase Lambda",
+   "glyph": "Λ"
+  },
+  {
+   "name": "Xi",
+   "insertText": "\\Xi",
+   "category": "Greek",
+   "description": "Uppercase Xi",
+   "glyph": "Ξ"
+  },
+  {
+   "name": "Pi",
+   "insertText": "\\Pi",
+   "category": "Greek",
+   "description": "Uppercase Pi",
+   "glyph": "Π"
+  },
+  {
+   "name": "Sigma",
+   "insertText": "\\Sigma",
+   "category": "Greek",
+   "description": "Uppercase Sigma",
+   "glyph": "Σ"
+  },
+  {
+   "name": "Upsilon",
+   "insertText": "\\Upsilon",
+   "category": "Greek",
+   "description": "Uppercase Upsilon",
+   "glyph": "Υ"
+  },
+  {
+   "name": "Phi",
+   "insertText": "\\Phi",
+   "category": "Greek",
+   "description": "Uppercase Phi",
+   "glyph": "Φ"
+  },
+  {
+   "name": "Psi",
+   "insertText": "\\Psi",
+   "category": "Greek",
+   "description": "Uppercase Psi",
+   "glyph": "Ψ"
+  },
+  {
+   "name": "Omega",
+   "insertText": "\\Omega",
+   "category": "Greek",
+   "description": "Uppercase Omega",
+   "glyph": "Ω"
+  },
+  {
+   "name": "varGamma",
+   "insertText": "\\varGamma",
+   "category": "Greek",
+   "description": "Italic uppercase Gamma",
+   "glyph": "𝛤"
+  },
+  {
+   "name": "varDelta",
+   "insertText": "\\varDelta",
+   "category": "Greek",
+   "description": "Italic uppercase Delta",
+   "glyph": "𝛥"
+  },
+  {
+   "name": "varTheta",
+   "insertText": "\\varTheta",
+   "category": "Greek",
+   "description": "Italic uppercase Theta",
+   "glyph": "𝛩"
+  },
+  {
+   "name": "varLambda",
+   "insertText": "\\varLambda",
+   "category": "Greek",
+   "description": "Italic uppercase Lambda",
+   "glyph": "𝛬"
+  },
+  {
+   "name": "varXi",
+   "insertText": "\\varXi",
+   "category": "Greek",
+   "description": "Italic uppercase Xi",
+   "glyph": "𝛯"
+  },
+  {
+   "name": "varPi",
+   "insertText": "\\varPi",
+   "category": "Greek",
+   "description": "Italic uppercase Pi",
+   "glyph": "𝛱"
+  },
+  {
+   "name": "varSigma",
+   "insertText": "\\varSigma",
+   "category": "Greek",
+   "description": "Italic uppercase Sigma",
+   "glyph": "𝛴"
+  },
+  {
+   "name": "varUpsilon",
+   "insertText": "\\varUpsilon",
+   "category": "Greek",
+   "description": "Italic uppercase Upsilon",
+   "glyph": "𝛶"
+  },
+  {
+   "name": "varPhi",
+   "insertText": "\\varPhi",
+   "category": "Greek",
+   "description": "Italic uppercase Phi",
+   "glyph": "𝛷"
+  },
+  {
+   "name": "varPsi",
+   "insertText": "\\varPsi",
+   "category": "Greek",
+   "description": "Italic uppercase Psi",
+   "glyph": "𝛹"
+  },
+  {
+   "name": "varOmega",
+   "insertText": "\\varOmega",
+   "category": "Greek",
+   "description": "Italic uppercase Omega",
+   "glyph": "𝛺"
+  },
+  {
+   "name": "le",
+   "insertText": "\\le",
+   "category": "Relation",
+   "description": "Less than or equal",
+   "glyph": "≤",
+   "priority": 10
+  },
+  {
+   "name": "leq",
+   "insertText": "\\leq",
+   "category": "Relation",
+   "description": "Less than or equal",
+   "glyph": "≤"
+  },
+  {
+   "name": "ge",
+   "insertText": "\\ge",
+   "category": "Relation",
+   "description": "Greater than or equal",
+   "glyph": "≥",
+   "priority": 10
+  },
+  {
+   "name": "geq",
+   "insertText": "\\geq",
+   "category": "Relation",
+   "description": "Greater than or equal",
+   "glyph": "≥"
+  },
+  {
+   "name": "leqslant",
+   "insertText": "\\leqslant",
+   "category": "Relation",
+   "description": "Less than or equal (slanted)",
+   "glyph": "⩽"
+  },
+  {
+   "name": "geqslant",
+   "insertText": "\\geqslant",
+   "category": "Relation",
+   "description": "Greater than or equal (slanted)",
+   "glyph": "⩾"
+  },
+  {
+   "name": "neq",
+   "insertText": "\\neq",
+   "category": "Relation",
+   "description": "Not equal",
+   "glyph": "≠",
+   "priority": 10
+  },
+  {
+   "name": "ne",
+   "insertText": "\\ne",
+   "category": "Relation",
+   "description": "Not equal",
+   "glyph": "≠"
+  },
+  {
+   "name": "ll",
+   "insertText": "\\ll",
+   "category": "Relation",
+   "description": "Much less than",
+   "glyph": "≪"
+  },
+  {
+   "name": "gg",
+   "insertText": "\\gg",
+   "category": "Relation",
+   "description": "Much greater than",
+   "glyph": "≫"
+  },
+  {
+   "name": "approx",
+   "insertText": "\\approx",
+   "category": "Relation",
+   "description": "Approximately equal",
+   "glyph": "≈",
+   "priority": 10
+  },
+  {
+   "name": "approxeq",
+   "insertText": "\\approxeq",
+   "category": "Relation",
+   "description": "Approximately equal or equal",
+   "glyph": "≊"
+  },
+  {
+   "name": "equiv",
+   "insertText": "\\equiv",
+   "category": "Relation",
+   "description": "Equivalent / identical",
+   "glyph": "≡"
+  },
+  {
+   "name": "sim",
+   "insertText": "\\sim",
+   "category": "Relation",
+   "description": "Similar to",
+   "glyph": "∼"
+  },
+  {
+   "name": "simeq",
+   "insertText": "\\simeq",
+   "category": "Relation",
+   "description": "Asymptotically equal",
+   "glyph": "≃"
+  },
+  {
+   "name": "cong",
+   "insertText": "\\cong",
+   "category": "Relation",
+   "description": "Congruent",
+   "glyph": "≅"
+  },
+  {
+   "name": "propto",
+   "insertText": "\\propto",
+   "category": "Relation",
+   "description": "Proportional to",
+   "glyph": "∝"
+  },
+  {
+   "name": "doteq",
+   "insertText": "\\doteq",
+   "category": "Relation",
+   "description": "Approaches the limit",
+   "glyph": "≐"
+  },
+  {
+   "name": "triangleq",
+   "insertText": "\\triangleq",
+   "category": "Relation",
+   "description": "Defined as",
+   "glyph": "≜"
+  },
+  {
+   "name": "coloneqq",
+   "insertText": "\\coloneqq",
+   "category": "Relation",
+   "description": "Defined as (colon equals)",
+   "glyph": "≔"
+  },
+  {
+   "name": "prec",
+   "insertText": "\\prec",
+   "category": "Relation",
+   "description": "Precedes",
+   "glyph": "≺"
+  },
+  {
+   "name": "succ",
+   "insertText": "\\succ",
+   "category": "Relation",
+   "description": "Succeeds",
+   "glyph": "≻"
+  },
+  {
+   "name": "preceq",
+   "insertText": "\\preceq",
+   "category": "Relation",
+   "description": "Precedes or equal",
+   "glyph": "⪯"
+  },
+  {
+   "name": "succeq",
+   "insertText": "\\succeq",
+   "category": "Relation",
+   "description": "Succeeds or equal",
+   "glyph": "⪰"
+  },
+  {
+   "name": "in",
+   "insertText": "\\in",
+   "category": "Relation",
+   "description": "Element of",
+   "glyph": "∈",
+   "priority": 10
+  },
+  {
+   "name": "notin",
+   "insertText": "\\notin",
+   "category": "Relation",
+   "description": "Not an element of",
+   "glyph": "∉"
+  },
+  {
+   "name": "ni",
+   "insertText": "\\ni",
+   "category": "Relation",
+   "description": "Contains as member",
+   "glyph": "∋"
+  },
+  {
+   "name": "subset",
+   "insertText": "\\subset",
+   "category": "Relation",
+   "description": "Subset",
+   "glyph": "⊂"
+  },
+  {
+   "name": "supset",
+   "insertText": "\\supset",
+   "category": "Relation",
+   "description": "Superset",
+   "glyph": "⊃"
+  },
+  {
+   "name": "subseteq",
+   "insertText": "\\subseteq",
+   "category": "Relation",
+   "description": "Subset or equal",
+   "glyph": "⊆"
+  },
+  {
+   "name": "supseteq",
+   "insertText": "\\supseteq",
+   "category": "Relation",
+   "description": "Superset or equal",
+   "glyph": "⊇"
+  },
+  {
+   "name": "subsetneq",
+   "insertText": "\\subsetneq",
+   "category": "Relation",
+   "description": "Proper subset",
+   "glyph": "⊊"
+  },
+  {
+   "name": "supsetneq",
+   "insertText": "\\supsetneq",
+   "category": "Relation",
+   "description": "Proper superset",
+   "glyph": "⊋"
+  },
+  {
+   "name": "sqsubseteq",
+   "insertText": "\\sqsubseteq",
+   "category": "Relation",
+   "description": "Square subset or equal",
+   "glyph": "⊑"
+  },
+  {
+   "name": "sqsupseteq",
+   "insertText": "\\sqsupseteq",
+   "category": "Relation",
+   "description": "Square superset or equal",
+   "glyph": "⊒"
+  },
+  {
+   "name": "perp",
+   "insertText": "\\perp",
+   "category": "Relation",
+   "description": "Perpendicular",
+   "glyph": "⊥"
+  },
+  {
+   "name": "parallel",
+   "insertText": "\\parallel",
+   "category": "Relation",
+   "description": "Parallel",
+   "glyph": "∥"
+  },
+  {
+   "name": "nparallel",
+   "insertText": "\\nparallel",
+   "category": "Relation",
+   "description": "Not parallel",
+   "glyph": "∦"
+  },
+  {
+   "name": "mid",
+   "insertText": "\\mid",
+   "category": "Relation",
+   "description": "Divides / such that",
+   "glyph": "∣"
+  },
+  {
+   "name": "nmid",
+   "insertText": "\\nmid",
+   "category": "Relation",
+   "description": "Does not divide",
+   "glyph": "∤"
+  },
+  {
+   "name": "vdash",
+   "insertText": "\\vdash",
+   "category": "Relation",
+   "description": "Proves",
+   "glyph": "⊢"
+  },
+  {
+   "name": "dashv",
+   "insertText": "\\dashv",
+   "category": "Relation",
+   "description": "Left tack",
+   "glyph": "⊣"
+  },
+  {
+   "name": "models",
+   "insertText": "\\models",
+   "category": "Relation",
+   "description": "Models / entails",
+   "glyph": "⊨"
+  },
+  {
+   "name": "asymp",
+   "insertText": "\\asymp",
+   "category": "Relation",
+   "description": "Asymptotic",
+   "glyph": "≍"
+  },
+  {
+   "name": "bowtie",
+   "insertText": "\\bowtie",
+   "category": "Relation",
+   "description": "Natural join",
+   "glyph": "⋈"
+  },
+  {
+   "name": "lesssim",
+   "insertText": "\\lesssim",
+   "category": "Relation",
+   "description": "Less than or similar",
+   "glyph": "≲"
+  },
+  {
+   "name": "gtrsim",
+   "insertText": "\\gtrsim",
+   "category": "Relation",
+   "description": "Greater than or similar",
+   "glyph": "≳"
+  },
+  {
+   "name": "nleq",
+   "insertText": "\\nleq",
+   "category": "Relation",
+   "description": "Not less than or equal",
+   "glyph": "≰"
+  },
+  {
+   "name": "ngeq",
+   "insertText": "\\ngeq",
+   "category": "Relation",
+   "description": "Not greater than or equal",
+   "glyph": "≱"
+  },
+  {
+   "name": "nless",
+   "insertText": "\\nless",
+   "category": "Relation",
+   "description": "Not less than",
+   "glyph": "≮"
+  },
+  {
+   "name": "ngtr",
+   "insertText": "\\ngtr",
+   "category": "Relation",
+   "description": "Not greater than",
+   "glyph": "≯"
+  },
+  {
+   "name": "nsim",
+   "insertText": "\\nsim",
+   "category": "Relation",
+   "description": "Not similar",
+   "glyph": "≁"
+  },
+  {
+   "name": "ncong",
+   "insertText": "\\ncong",
+   "category": "Relation",
+   "description": "Not congruent",
+   "glyph": "≇"
+  },
+  {
+   "name": "smile",
+   "insertText": "\\smile",
+   "category": "Relation",
+   "description": "Smile",
+   "glyph": "⌣"
+  },
+  {
+   "name": "frown",
+   "insertText": "\\frown",
+   "category": "Relation",
+   "description": "Frown",
+   "glyph": "⌢"
+  },
+  {
+   "name": "lessgtr",
+   "insertText": "\\lessgtr",
+   "category": "Relation",
+   "description": "Less than or greater than",
+   "glyph": "≶"
+  },
+  {
+   "name": "vDash",
+   "insertText": "\\vDash",
+   "category": "Relation",
+   "description": "Double turnstile",
+   "glyph": "⊨"
+  },
+  {
+   "name": "Vdash",
+   "insertText": "\\Vdash",
+   "category": "Relation",
+   "description": "Forces",
+   "glyph": "⊩"
+  },
+  {
+   "name": "sqsubset",
+   "insertText": "\\sqsubset",
+   "category": "Relation",
+   "description": "Square subset",
+   "glyph": "⊏"
+  },
+  {
+   "name": "sqsupset",
+   "insertText": "\\sqsupset",
+   "category": "Relation",
+   "description": "Square superset",
+   "glyph": "⊐"
+  },
+  {
+   "name": "nsubseteq",
+   "insertText": "\\nsubseteq",
+   "category": "Relation",
+   "description": "Not a subset or equal",
+   "glyph": "⊈"
+  },
+  {
+   "name": "nsupseteq",
+   "insertText": "\\nsupseteq",
+   "category": "Relation",
+   "description": "Not a superset or equal",
+   "glyph": "⊉"
+  },
+  {
+   "name": "times",
+   "insertText": "\\times",
+   "category": "Operator",
+   "description": "Multiplication / cross product",
+   "glyph": "×",
+   "priority": 10
+  },
+  {
+   "name": "cdot",
+   "insertText": "\\cdot",
+   "category": "Operator",
+   "description": "Centered dot",
+   "glyph": "⋅",
+   "priority": 10
+  },
+  {
+   "name": "pm",
+   "insertText": "\\pm",
+   "category": "Operator",
+   "description": "Plus or minus",
+   "glyph": "±"
+  },
+  {
+   "name": "mp",
+   "insertText": "\\mp",
+   "category": "Operator",
+   "description": "Minus or plus",
+   "glyph": "∓"
+  },
+  {
+   "name": "div",
+   "insertText": "\\div",
+   "category": "Operator",
+   "description": "Division",
+   "glyph": "÷"
+  },
+  {
+   "name": "circ",
+   "insertText": "\\circ",
+   "category": "Operator",
+   "description": "Composition",
+   "glyph": "∘"
+  },
+  {
+   "name": "bullet",
+   "insertText": "\\bullet",
+   "category": "Operator",
+   "description": "Bullet",
+   "glyph": "∙"
+  },
+  {
+   "name": "ast",
+   "insertText": "\\ast",
+   "category": "Operator",
+   "description": "Asterisk",
+   "glyph": "∗"
+  },
+  {
+   "name": "star",
+   "insertText": "\\star",
+   "category": "Operator",
+   "description": "Star",
+   "glyph": "⋆"
+  },
+  {
+   "name": "oplus",
+   "insertText": "\\oplus",
+   "category": "Operator",
+   "description": "Direct sum",
+   "glyph": "⊕"
+  },
+  {
+   "name": "ominus",
+   "insertText": "\\ominus",
+   "category": "Operator",
+   "description": "Circled minus",
+   "glyph": "⊖"
+  },
+  {
+   "name": "otimes",
+   "insertText": "\\otimes",
+   "category": "Operator",
+   "description": "Tensor product",
+   "glyph": "⊗"
+  },
+  {
+   "name": "oslash",
+   "insertText": "\\oslash",
+   "category": "Operator",
+   "description": "Circled slash",
+   "glyph": "⊘"
+  },
+  {
+   "name": "odot",
+   "insertText": "\\odot",
+   "category": "Operator",
+   "description": "Circled dot",
+   "glyph": "⊙"
+  },
+  {
+   "name": "cup",
+   "insertText": "\\cup",
+   "category": "Operator",
+   "description": "Union",
+   "glyph": "∪"
+  },
+  {
+   "name": "cap",
+   "insertText": "\\cap",
+   "category": "Operator",
+   "description": "Intersection",
+   "glyph": "∩"
+  },
+  {
+   "name": "sqcup",
+   "insertText": "\\sqcup",
+   "category": "Operator",
+   "description": "Square union",
+   "glyph": "⊔"
+  },
+  {
+   "name": "sqcap",
+   "insertText": "\\sqcap",
+   "category": "Operator",
+   "description": "Square intersection",
+   "glyph": "⊓"
+  },
+  {
+   "name": "uplus",
+   "insertText": "\\uplus",
+   "category": "Operator",
+   "description": "Multiset union",
+   "glyph": "⊎"
+  },
+  {
+   "name": "wedge",
+   "insertText": "\\wedge",
+   "category": "Operator",
+   "description": "Logical and / wedge",
+   "glyph": "∧"
+  },
+  {
+   "name": "vee",
+   "insertText": "\\vee",
+   "category": "Operator",
+   "description": "Logical or / vee",
+   "glyph": "∨"
+  },
+  {
+   "name": "setminus",
+   "insertText": "\\setminus",
+   "category": "Operator",
+   "description": "Set difference",
+   "glyph": "∖"
+  },
+  {
+   "name": "wr",
+   "insertText": "\\wr",
+   "category": "Operator",
+   "description": "Wreath product",
+   "glyph": "≀"
+  },
+  {
+   "name": "diamond",
+   "insertText": "\\diamond",
+   "category": "Operator",
+   "description": "Diamond operator",
+   "glyph": "⋄"
+  },
+  {
+   "name": "bigtriangleup",
+   "insertText": "\\bigtriangleup",
+   "category": "Operator",
+   "description": "Big triangle up",
+   "glyph": "△"
+  },
+  {
+   "name": "bigtriangledown",
+   "insertText": "\\bigtriangledown",
+   "category": "Operator",
+   "description": "Big triangle down",
+   "glyph": "▽"
+  },
+  {
+   "name": "triangleleft",
+   "insertText": "\\triangleleft",
+   "category": "Operator",
+   "description": "Triangle left",
+   "glyph": "◃"
+  },
+  {
+   "name": "triangleright",
+   "insertText": "\\triangleright",
+   "category": "Operator",
+   "description": "Triangle right",
+   "glyph": "▹"
+  },
+  {
+   "name": "dagger",
+   "insertText": "\\dagger",
+   "category": "Operator",
+   "description": "Dagger / adjoint",
+   "glyph": "†"
+  },
+  {
+   "name": "ddagger",
+   "insertText": "\\ddagger",
+   "category": "Operator",
+   "description": "Double dagger",
+   "glyph": "‡"
+  },
+  {
+   "name": "amalg",
+   "insertText": "\\amalg",
+   "category": "Operator",
+   "description": "Amalgamation / coproduct",
+   "glyph": "⨿"
+  },
+  {
+   "name": "ltimes",
+   "insertText": "\\ltimes",
+   "category": "Operator",
+   "description": "Left semidirect product",
+   "glyph": "⋉"
+  },
+  {
+   "name": "rtimes",
+   "insertText": "\\rtimes",
+   "category": "Operator",
+   "description": "Right semidirect product",
+   "glyph": "⋊"
+  },
+  {
+   "name": "boxplus",
+   "insertText": "\\boxplus",
+   "category": "Operator",
+   "description": "Boxed plus",
+   "glyph": "⊞"
+  },
+  {
+   "name": "boxtimes",
+   "insertText": "\\boxtimes",
+   "category": "Operator",
+   "description": "Boxed times",
+   "glyph": "⊠"
+  },
+  {
+   "name": "boxminus",
+   "insertText": "\\boxminus",
+   "category": "Operator",
+   "description": "Boxed minus",
+   "glyph": "⊟"
+  },
+  {
+   "name": "boxdot",
+   "insertText": "\\boxdot",
+   "category": "Operator",
+   "description": "Boxed dot",
+   "glyph": "⊡"
+  },
+  {
+   "name": "intercal",
+   "insertText": "\\intercal",
+   "category": "Operator",
+   "description": "Intercalate / transpose",
+   "glyph": "⊺"
+  },
+  {
+   "name": "neg",
+   "insertText": "\\neg",
+   "category": "Logic",
+   "description": "Logical not",
+   "glyph": "¬"
+  },
+  {
+   "name": "lnot",
+   "insertText": "\\lnot",
+   "category": "Logic",
+   "description": "Logical not",
+   "glyph": "¬"
+  },
+  {
+   "name": "land",
+   "insertText": "\\land",
+   "category": "Logic",
+   "description": "Logical and",
+   "glyph": "∧"
+  },
+  {
+   "name": "lor",
+   "insertText": "\\lor",
+   "category": "Logic",
+   "description": "Logical or",
+   "glyph": "∨"
+  },
+  {
+   "name": "forall",
+   "insertText": "\\forall",
+   "category": "Logic",
+   "description": "For all",
+   "glyph": "∀"
+  },
+  {
+   "name": "exists",
+   "insertText": "\\exists",
+   "category": "Logic",
+   "description": "There exists",
+   "glyph": "∃"
+  },
+  {
+   "name": "nexists",
+   "insertText": "\\nexists",
+   "category": "Logic",
+   "description": "There does not exist",
+   "glyph": "∄"
+  },
+  {
+   "name": "implies",
+   "insertText": "\\implies",
+   "category": "Logic",
+   "description": "Implies",
+   "glyph": "⟹"
+  },
+  {
+   "name": "impliedby",
+   "insertText": "\\impliedby",
+   "category": "Logic",
+   "description": "Is implied by",
+   "glyph": "⟸"
+  },
+  {
+   "name": "iff",
+   "insertText": "\\iff",
+   "category": "Logic",
+   "description": "If and only if",
+   "glyph": "⟺"
+  },
+  {
+   "name": "top",
+   "insertText": "\\top",
+   "category": "Logic",
+   "description": "Top / true",
+   "glyph": "⊤"
+  },
+  {
+   "name": "bot",
+   "insertText": "\\bot",
+   "category": "Logic",
+   "description": "Bottom / false",
+   "glyph": "⊥"
+  },
+  {
+   "name": "therefore",
+   "insertText": "\\therefore",
+   "category": "Logic",
+   "description": "Therefore",
+   "glyph": "∴"
+  },
+  {
+   "name": "because",
+   "insertText": "\\because",
+   "category": "Logic",
+   "description": "Because",
+   "glyph": "∵"
+  },
+  {
+   "name": "emptyset",
+   "insertText": "\\emptyset",
+   "category": "Logic",
+   "description": "Empty set",
+   "glyph": "∅"
+  },
+  {
+   "name": "varnothing",
+   "insertText": "\\varnothing",
+   "category": "Logic",
+   "description": "Empty set (variant)",
+   "glyph": "∅"
+  },
+  {
+   "name": "complement",
+   "insertText": "\\complement",
+   "category": "Logic",
+   "description": "Complement",
+   "glyph": "∁"
+  },
+  {
+   "name": "to",
+   "insertText": "\\to",
+   "category": "Arrow",
+   "description": "Maps to / tends to",
+   "glyph": "→",
+   "priority": 10
+  },
+  {
+   "name": "rightarrow",
+   "insertText": "\\rightarrow",
+   "category": "Arrow",
+   "description": "Right arrow",
+   "glyph": "→"
+  },
+  {
+   "name": "leftarrow",
+   "insertText": "\\leftarrow",
+   "category": "Arrow",
+   "description": "Left arrow",
+   "glyph": "←"
+  },
+  {
+   "name": "gets",
+   "insertText": "\\gets",
+   "category": "Arrow",
+   "description": "Gets / assignment",
+   "glyph": "←"
+  },
+  {
+   "name": "leftrightarrow",
+   "insertText": "\\leftrightarrow",
+   "category": "Arrow",
+   "description": "Left-right arrow",
+   "glyph": "↔"
+  },
+  {
+   "name": "Rightarrow",
+   "insertText": "\\Rightarrow",
+   "category": "Arrow",
+   "description": "Double right arrow",
+   "glyph": "⇒",
+   "priority": 10
+  },
+  {
+   "name": "Leftarrow",
+   "insertText": "\\Leftarrow",
+   "category": "Arrow",
+   "description": "Double left arrow",
+   "glyph": "⇐"
+  },
+  {
+   "name": "Leftrightarrow",
+   "insertText": "\\Leftrightarrow",
+   "category": "Arrow",
+   "description": "Double left-right arrow",
+   "glyph": "⇔"
+  },
+  {
+   "name": "longrightarrow",
+   "insertText": "\\longrightarrow",
+   "category": "Arrow",
+   "description": "Long right arrow",
+   "glyph": "⟶"
+  },
+  {
+   "name": "longleftarrow",
+   "insertText": "\\longleftarrow",
+   "category": "Arrow",
+   "description": "Long left arrow",
+   "glyph": "⟵"
+  },
+  {
+   "name": "longleftrightarrow",
+   "insertText": "\\longleftrightarrow",
+   "category": "Arrow",
+   "description": "Long left-right arrow",
+   "glyph": "⟷"
+  },
+  {
+   "name": "Longrightarrow",
+   "insertText": "\\Longrightarrow",
+   "category": "Arrow",
+   "description": "Long double right arrow",
+   "glyph": "⟹"
+  },
+  {
+   "name": "Longleftarrow",
+   "insertText": "\\Longleftarrow",
+   "category": "Arrow",
+   "description": "Long double left arrow",
+   "glyph": "⟸"
+  },
+  {
+   "name": "Longleftrightarrow",
+   "insertText": "\\Longleftrightarrow",
+   "category": "Arrow",
+   "description": "Long double left-right arrow",
+   "glyph": "⟺"
+  },
+  {
+   "name": "mapsto",
+   "insertText": "\\mapsto",
+   "category": "Arrow",
+   "description": "Maps to",
+   "glyph": "↦"
+  },
+  {
+   "name": "longmapsto",
+   "insertText": "\\longmapsto",
+   "category": "Arrow",
+   "description": "Long maps to",
+   "glyph": "⟼"
+  },
+  {
+   "name": "uparrow",
+   "insertText": "\\uparrow",
+   "category": "Arrow",
+   "description": "Up arrow",
+   "glyph": "↑"
+  },
+  {
+   "name": "downarrow",
+   "insertText": "\\downarrow",
+   "category": "Arrow",
+   "description": "Down arrow",
+   "glyph": "↓"
+  },
+  {
+   "name": "updownarrow",
+   "insertText": "\\updownarrow",
+   "category": "Arrow",
+   "description": "Up-down arrow",
+   "glyph": "↕"
+  },
+  {
+   "name": "Uparrow",
+   "insertText": "\\Uparrow",
+   "category": "Arrow",
+   "description": "Double up arrow",
+   "glyph": "⇑"
+  },
+  {
+   "name": "Downarrow",
+   "insertText": "\\Downarrow",
+   "category": "Arrow",
+   "description": "Double down arrow",
+   "glyph": "⇓"
+  },
+  {
+   "name": "Updownarrow",
+   "insertText": "\\Updownarrow",
+   "category": "Arrow",
+   "description": "Double up-down arrow",
+   "glyph": "⇕"
+  },
+  {
+   "name": "nearrow",
+   "insertText": "\\nearrow",
+   "category": "Arrow",
+   "description": "North-east arrow",
+   "glyph": "↗"
+  },
+  {
+   "name": "searrow",
+   "insertText": "\\searrow",
+   "category": "Arrow",
+   "description": "South-east arrow",
+   "glyph": "↘"
+  },
+  {
+   "name": "swarrow",
+   "insertText": "\\swarrow",
+   "category": "Arrow",
+   "description": "South-west arrow",
+   "glyph": "↙"
+  },
+  {
+   "name": "nwarrow",
+   "insertText": "\\nwarrow",
+   "category": "Arrow",
+   "description": "North-west arrow",
+   "glyph": "↖"
+  },
+  {
+   "name": "hookrightarrow",
+   "insertText": "\\hookrightarrow",
+   "category": "Arrow",
+   "description": "Hooked right arrow / inclusion",
+   "glyph": "↪"
+  },
+  {
+   "name": "hookleftarrow",
+   "insertText": "\\hookleftarrow",
+   "category": "Arrow",
+   "description": "Hooked left arrow",
+   "glyph": "↩"
+  },
+  {
+   "name": "rightharpoonup",
+   "insertText": "\\rightharpoonup",
+   "category": "Arrow",
+   "description": "Right harpoon up",
+   "glyph": "⇀"
+  },
+  {
+   "name": "rightharpoondown",
+   "insertText": "\\rightharpoondown",
+   "category": "Arrow",
+   "description": "Right harpoon down",
+   "glyph": "⇁"
+  },
+  {
+   "name": "leftharpoonup",
+   "insertText": "\\leftharpoonup",
+   "category": "Arrow",
+   "description": "Left harpoon up",
+   "glyph": "↼"
+  },
+  {
+   "name": "leftharpoondown",
+   "insertText": "\\leftharpoondown",
+   "category": "Arrow",
+   "description": "Left harpoon down",
+   "glyph": "↽"
+  },
+  {
+   "name": "rightleftharpoons",
+   "insertText": "\\rightleftharpoons",
+   "category": "Arrow",
+   "description": "Equilibrium",
+   "glyph": "⇌"
+  },
+  {
+   "name": "leftrightharpoons",
+   "insertText": "\\leftrightharpoons",
+   "category": "Arrow",
+   "description": "Reverse equilibrium",
+   "glyph": "⇋"
+  },
+  {
+   "name": "leadsto",
+   "insertText": "\\leadsto",
+   "category": "Arrow",
+   "description": "Leads to",
+   "glyph": "⇝"
+  },
+  {
+   "name": "rightsquigarrow",
+   "insertText": "\\rightsquigarrow",
+   "category": "Arrow",
+   "description": "Squiggly right arrow",
+   "glyph": "⇝"
+  },
+  {
+   "name": "twoheadrightarrow",
+   "insertText": "\\twoheadrightarrow",
+   "category": "Arrow",
+   "description": "Surjection",
+   "glyph": "↠"
+  },
+  {
+   "name": "rightarrowtail",
+   "insertText": "\\rightarrowtail",
+   "category": "Arrow",
+   "description": "Injection",
+   "glyph": "↣"
+  },
+  {
+   "name": "curvearrowright",
+   "insertText": "\\curvearrowright",
+   "category": "Arrow",
+   "description": "Curved right arrow",
+   "glyph": "↷"
+  },
+  {
+   "name": "circlearrowright",
+   "insertText": "\\circlearrowright",
+   "category": "Arrow",
+   "description": "Clockwise circle arrow",
+   "glyph": "↻"
+  },
+  {
+   "name": "circlearrowleft",
+   "insertText": "\\circlearrowleft",
+   "category": "Arrow",
+   "description": "Counter-clockwise circle arrow",
+   "glyph": "↺"
+  },
+  {
+   "name": "nrightarrow",
+   "insertText": "\\nrightarrow",
+   "category": "Arrow",
+   "description": "Not right arrow",
+   "glyph": "↛"
+  },
+  {
+   "name": "nleftarrow",
+   "insertText": "\\nleftarrow",
+   "category": "Arrow",
+   "description": "Not left arrow",
+   "glyph": "↚"
+  },
+  {
+   "name": "nRightarrow",
+   "insertText": "\\nRightarrow",
+   "category": "Arrow",
+   "description": "Not implies",
+   "glyph": "⇏"
+  },
+  {
+   "name": "nLeftrightarrow",
+   "insertText": "\\nLeftrightarrow",
+   "category": "Arrow",
+   "description": "Not equivalent",
+   "glyph": "⇎"
+  },
+  {
+   "name": "rightrightarrows",
+   "insertText": "\\rightrightarrows",
+   "category": "Arrow",
+   "description": "Paired right arrows",
+   "glyph": "⇉"
+  },
+  {
+   "name": "xrightarrow",
+   "insertText": "\\xrightarrow{${1}}",
+   "category": "Arrow",
+   "description": "Extensible right arrow with a label",
+   "glyph": "→"
+  },
+  {
+   "name": "xleftarrow",
+   "insertText": "\\xleftarrow{${1}}",
+   "category": "Arrow",
+   "description": "Extensible left arrow with a label",
+   "glyph": "←"
+  },
+  {
+   "name": "sum",
+   "insertText": "\\sum_{${1:i=1}}^{${2:n}}",
+   "category": "Big operator",
+   "description": "Summation with limits",
+   "glyph": "∑",
+   "priority": 10
+  },
+  {
+   "name": "prod",
+   "insertText": "\\prod_{${1:i=1}}^{${2:n}}",
+   "category": "Big operator",
+   "description": "Product with limits",
+   "glyph": "∏"
+  },
+  {
+   "name": "coprod",
+   "insertText": "\\coprod_{${1}}^{${2}}",
+   "category": "Big operator",
+   "description": "Coproduct with limits",
+   "glyph": "∐"
+  },
+  {
+   "name": "int",
+   "insertText": "\\int_{${1:a}}^{${2:b}}",
+   "category": "Big operator",
+   "description": "Definite integral",
+   "glyph": "∫",
+   "priority": 10
+  },
+  {
+   "name": "iint",
+   "insertText": "\\iint_{${1:D}}",
+   "category": "Big operator",
+   "description": "Double integral",
+   "glyph": "∬"
+  },
+  {
+   "name": "iiint",
+   "insertText": "\\iiint_{${1:V}}",
+   "category": "Big operator",
+   "description": "Triple integral",
+   "glyph": "∭"
+  },
+  {
+   "name": "oint",
+   "insertText": "\\oint_{${1:C}}",
+   "category": "Big operator",
+   "description": "Contour integral",
+   "glyph": "∮"
+  },
+  {
+   "name": "bigcup",
+   "insertText": "\\bigcup_{${1}}^{${2}}",
+   "category": "Big operator",
+   "description": "Big union with limits",
+   "glyph": "⋃"
+  },
+  {
+   "name": "bigcap",
+   "insertText": "\\bigcap_{${1}}^{${2}}",
+   "category": "Big operator",
+   "description": "Big intersection with limits",
+   "glyph": "⋂"
+  },
+  {
+   "name": "bigoplus",
+   "insertText": "\\bigoplus_{${1}}^{${2}}",
+   "category": "Big operator",
+   "description": "Big direct sum with limits",
+   "glyph": "⨁"
+  },
+  {
+   "name": "bigotimes",
+   "insertText": "\\bigotimes_{${1}}^{${2}}",
+   "category": "Big operator",
+   "description": "Big tensor product with limits",
+   "glyph": "⨂"
+  },
+  {
+   "name": "bigodot",
+   "insertText": "\\bigodot_{${1}}^{${2}}",
+   "category": "Big operator",
+   "description": "Big circled dot with limits",
+   "glyph": "⨀"
+  },
+  {
+   "name": "biguplus",
+   "insertText": "\\biguplus_{${1}}^{${2}}",
+   "category": "Big operator",
+   "description": "Big multiset union with limits",
+   "glyph": "⨄"
+  },
+  {
+   "name": "bigsqcup",
+   "insertText": "\\bigsqcup_{${1}}^{${2}}",
+   "category": "Big operator",
+   "description": "Big square union with limits",
+   "glyph": "⨆"
+  },
+  {
+   "name": "bigvee",
+   "insertText": "\\bigvee_{${1}}^{${2}}",
+   "category": "Big operator",
+   "description": "Big logical or with limits",
+   "glyph": "⋁"
+  },
+  {
+   "name": "bigwedge",
+   "insertText": "\\bigwedge_{${1}}^{${2}}",
+   "category": "Big operator",
+   "description": "Big logical and with limits",
+   "glyph": "⋀"
+  },
+  {
+   "name": "lim",
+   "insertText": "\\lim_{${1:x \\to \\infty}}",
+   "category": "Big operator",
+   "description": "Limit",
+   "priority": 10
+  },
+  {
+   "name": "limsup",
+   "insertText": "\\limsup_{${1:n \\to \\infty}}",
+   "category": "Big operator",
+   "description": "Limit superior"
+  },
+  {
+   "name": "liminf",
+   "insertText": "\\liminf_{${1:n \\to \\infty}}",
+   "category": "Big operator",
+   "description": "Limit inferior"
+  },
+  {
+   "name": "max",
+   "insertText": "\\max_{${1}}",
+   "category": "Big operator",
+   "description": "Maximum with a subscript"
+  },
+  {
+   "name": "min",
+   "insertText": "\\min_{${1}}",
+   "category": "Big operator",
+   "description": "Minimum with a subscript"
+  },
+  {
+   "name": "sup",
+   "insertText": "\\sup_{${1}}",
+   "category": "Big operator",
+   "description": "Supremum with a subscript"
+  },
+  {
+   "name": "inf",
+   "insertText": "\\inf_{${1}}",
+   "category": "Big operator",
+   "description": "Infimum with a subscript"
+  },
+  {
+   "name": "limits",
+   "insertText": "\\limits",
+   "category": "Big operator",
+   "description": "Place the following limits above and below"
+  },
+  {
+   "name": "nolimits",
+   "insertText": "\\nolimits",
+   "category": "Big operator",
+   "description": "Place the following limits beside the operator"
+  },
+  {
+   "name": "sin",
+   "insertText": "\\sin",
+   "category": "Function",
+   "description": "Sine"
+  },
+  {
+   "name": "cos",
+   "insertText": "\\cos",
+   "category": "Function",
+   "description": "Cosine"
+  },
+  {
+   "name": "tan",
+   "insertText": "\\tan",
+   "category": "Function",
+   "description": "Tangent"
+  },
+  {
+   "name": "cot",
+   "insertText": "\\cot",
+   "category": "Function",
+   "description": "Cotangent"
+  },
+  {
+   "name": "sec",
+   "insertText": "\\sec",
+   "category": "Function",
+   "description": "Secant"
+  },
+  {
+   "name": "csc",
+   "insertText": "\\csc",
+   "category": "Function",
+   "description": "Cosecant"
+  },
+  {
+   "name": "arcsin",
+   "insertText": "\\arcsin",
+   "category": "Function",
+   "description": "Inverse sine"
+  },
+  {
+   "name": "arccos",
+   "insertText": "\\arccos",
+   "category": "Function",
+   "description": "Inverse cosine"
+  },
+  {
+   "name": "arctan",
+   "insertText": "\\arctan",
+   "category": "Function",
+   "description": "Inverse tangent"
+  },
+  {
+   "name": "sinh",
+   "insertText": "\\sinh",
+   "category": "Function",
+   "description": "Hyperbolic sine"
+  },
+  {
+   "name": "cosh",
+   "insertText": "\\cosh",
+   "category": "Function",
+   "description": "Hyperbolic cosine"
+  },
+  {
+   "name": "tanh",
+   "insertText": "\\tanh",
+   "category": "Function",
+   "description": "Hyperbolic tangent"
+  },
+  {
+   "name": "coth",
+   "insertText": "\\coth",
+   "category": "Function",
+   "description": "Hyperbolic cotangent"
+  },
+  {
+   "name": "log",
+   "insertText": "\\log",
+   "category": "Function",
+   "description": "Logarithm"
+  },
+  {
+   "name": "ln",
+   "insertText": "\\ln",
+   "category": "Function",
+   "description": "Natural logarithm"
+  },
+  {
+   "name": "lg",
+   "insertText": "\\lg",
+   "category": "Function",
+   "description": "Binary logarithm"
+  },
+  {
+   "name": "exp",
+   "insertText": "\\exp",
+   "category": "Function",
+   "description": "Exponential"
+  },
+  {
+   "name": "det",
+   "insertText": "\\det",
+   "category": "Function",
+   "description": "Determinant"
+  },
+  {
+   "name": "dim",
+   "insertText": "\\dim",
+   "category": "Function",
+   "description": "Dimension"
+  },
+  {
+   "name": "ker",
+   "insertText": "\\ker",
+   "category": "Function",
+   "description": "Kernel"
+  },
+  {
+   "name": "deg",
+   "insertText": "\\deg",
+   "category": "Function",
+   "description": "Degree"
+  },
+  {
+   "name": "gcd",
+   "insertText": "\\gcd",
+   "category": "Function",
+   "description": "Greatest common divisor"
+  },
+  {
+   "name": "hom",
+   "insertText": "\\hom",
+   "category": "Function",
+   "description": "Homomorphisms"
+  },
+  {
+   "name": "arg",
+   "insertText": "\\arg",
+   "category": "Function",
+   "description": "Argument"
+  },
+  {
+   "name": "Pr",
+   "insertText": "\\Pr",
+   "category": "Function",
+   "description": "Probability"
+  },
+  {
+   "name": "bmod",
+   "insertText": "\\bmod",
+   "category": "Function",
+   "description": "Binary modulo operator"
+  },
+  {
+   "name": "pmod",
+   "insertText": "\\pmod{${1:n}}",
+   "category": "Function",
+   "description": "Parenthesized modulus"
+  },
+  {
+   "name": "mod",
+   "insertText": "\\mod{${1:n}}",
+   "category": "Function",
+   "description": "Modulus"
+  },
+  {
+   "name": "operatorname",
+   "insertText": "\\operatorname{${1:name}}",
+   "category": "Function",
+   "description": "Upright operator name"
+  },
+  {
+   "name": "operatorname*",
+   "insertText": "\\operatorname*{${1:arg\\,max}}_{${2}}",
+   "category": "Function",
+   "description": "Operator name with limits below",
+   "label": "\\operatorname*{…}"
+  },
+  {
+   "name": "frac",
+   "insertText": "\\frac{${1:num}}{${2:den}}",
+   "category": "Structure",
+   "description": "Fraction",
+   "priority": 20
+  },
+  {
+   "name": "dfrac",
+   "insertText": "\\dfrac{${1:num}}{${2:den}}",
+   "category": "Structure",
+   "description": "Display-style fraction"
+  },
+  {
+   "name": "tfrac",
+   "insertText": "\\tfrac{${1:num}}{${2:den}}",
+   "category": "Structure",
+   "description": "Text-style fraction"
+  },
+  {
+   "name": "cfrac",
+   "insertText": "\\cfrac{${1:num}}{${2:den}}",
+   "category": "Structure",
+   "description": "Continued fraction"
+  },
+  {
+   "name": "sqrt",
+   "insertText": "\\sqrt{${1}}",
+   "category": "Structure",
+   "description": "Square root",
+   "glyph": "√",
+   "priority": 10
+  },
+  {
+   "name": "sqrt",
+   "insertText": "\\sqrt[${1:n}]{${2}}",
+   "category": "Structure",
+   "description": "n-th root",
+   "glyph": "∛",
+   "label": "\\sqrt[n]{…}",
+   "priority": 10
+  },
+  {
+   "name": "binom",
+   "insertText": "\\binom{${1:n}}{${2:k}}",
+   "category": "Structure",
+   "description": "Binomial coefficient"
+  },
+  {
+   "name": "dbinom",
+   "insertText": "\\dbinom{${1:n}}{${2:k}}",
+   "category": "Structure",
+   "description": "Display-style binomial"
+  },
+  {
+   "name": "tbinom",
+   "insertText": "\\tbinom{${1:n}}{${2:k}}",
+   "category": "Structure",
+   "description": "Text-style binomial"
+  },
+  {
+   "name": "overline",
+   "insertText": "\\overline{${1}}",
+   "category": "Structure",
+   "description": "Line over an expression"
+  },
+  {
+   "name": "underline",
+   "insertText": "\\underline{${1}}",
+   "category": "Structure",
+   "description": "Line under an expression"
+  },
+  {
+   "name": "overbrace",
+   "insertText": "\\overbrace{${1}}^{${2}}",
+   "category": "Structure",
+   "description": "Brace above with a label",
+   "glyph": "⏞"
+  },
+  {
+   "name": "underbrace",
+   "insertText": "\\underbrace{${1}}_{${2}}",
+   "category": "Structure",
+   "description": "Brace below with a label",
+   "glyph": "⏟"
+  },
+  {
+   "name": "overset",
+   "insertText": "\\overset{${1:above}}{${2}}",
+   "category": "Structure",
+   "description": "Put a symbol above another"
+  },
+  {
+   "name": "underset",
+   "insertText": "\\underset{${1:below}}{${2}}",
+   "category": "Structure",
+   "description": "Put a symbol below another"
+  },
+  {
+   "name": "stackrel",
+   "insertText": "\\stackrel{${1:above}}{${2}}",
+   "category": "Structure",
+   "description": "Stack a relation above another"
+  },
+  {
+   "name": "substack",
+   "insertText": "\\substack{${1}}",
+   "category": "Structure",
+   "description": "Multi-line subscript"
+  },
+  {
+   "name": "phantom",
+   "insertText": "\\phantom{${1}}",
+   "category": "Structure",
+   "description": "Invisible box of the same size"
+  },
+  {
+   "name": "hphantom",
+   "insertText": "\\hphantom{${1}}",
+   "category": "Structure",
+   "description": "Invisible box of the same width"
+  },
+  {
+   "name": "vphantom",
+   "insertText": "\\vphantom{${1}}",
+   "category": "Structure",
+   "description": "Invisible box of the same height"
+  },
+  {
+   "name": "mathstrut",
+   "insertText": "\\mathstrut",
+   "category": "Structure",
+   "description": "Invisible strut with the height of a parenthesis"
+  },
+  {
+   "name": "not",
+   "insertText": "\\not",
+   "category": "Structure",
+   "description": "Negate the following relation"
+  },
+  {
+   "name": "displaystyle",
+   "insertText": "\\displaystyle",
+   "category": "Structure",
+   "description": "Switch to display style"
+  },
+  {
+   "name": "textstyle",
+   "insertText": "\\textstyle",
+   "category": "Structure",
+   "description": "Switch to text style"
+  },
+  {
+   "name": "scriptstyle",
+   "insertText": "\\scriptstyle",
+   "category": "Structure",
+   "description": "Switch to script style"
+  },
+  {
+   "name": "mathop",
+   "insertText": "\\mathop{${1}}",
+   "category": "Structure",
+   "description": "Treat as a big operator"
+  },
+  {
+   "name": "boxed",
+   "insertText": "\\boxed{${1}}",
+   "category": "Structure",
+   "description": "Box around an expression"
+  },
+  {
+   "name": "bbox",
+   "insertText": "\\bbox[${1:yellow}]{${2}}",
+   "category": "Structure",
+   "description": "Box with a background color"
+  },
+  {
+   "name": "hat",
+   "insertText": "\\hat{${1}}",
+   "category": "Accent",
+   "description": "Hat accent",
+   "glyph": "x̂",
+   "priority": 10
+  },
+  {
+   "name": "bar",
+   "insertText": "\\bar{${1}}",
+   "category": "Accent",
+   "description": "Bar accent",
+   "glyph": "x̄",
+   "priority": 10
+  },
+  {
+   "name": "vec",
+   "insertText": "\\vec{${1}}",
+   "category": "Accent",
+   "description": "Vector arrow",
+   "glyph": "x⃗",
+   "priority": 10
+  },
+  {
+   "name": "dot",
+   "insertText": "\\dot{${1}}",
+   "category": "Accent",
+   "description": "Dot accent (derivative)",
+   "glyph": "ẋ"
+  },
+  {
+   "name": "ddot",
+   "insertText": "\\ddot{${1}}",
+   "category": "Accent",
+   "description": "Double dot accent",
+   "glyph": "ẍ"
+  },
+  {
+   "name": "tilde",
+   "insertText": "\\tilde{${1}}",
+   "category": "Accent",
+   "description": "Tilde accent",
+   "glyph": "x̃"
+  },
+  {
+   "name": "check",
+   "insertText": "\\check{${1}}",
+   "category": "Accent",
+   "description": "Caron accent",
+   "glyph": "x̌"
+  },
+  {
+   "name": "breve",
+   "insertText": "\\breve{${1}}",
+   "category": "Accent",
+   "description": "Breve accent",
+   "glyph": "x̆"
+  },
+  {
+   "name": "acute",
+   "insertText": "\\acute{${1}}",
+   "category": "Accent",
+   "description": "Acute accent",
+   "glyph": "x́"
+  },
+  {
+   "name": "grave",
+   "insertText": "\\grave{${1}}",
+   "category": "Accent",
+   "description": "Grave accent",
+   "glyph": "x̀"
+  },
+  {
+   "name": "mathring",
+   "insertText": "\\mathring{${1}}",
+   "category": "Accent",
+   "description": "Ring accent",
+   "glyph": "x̊"
+  },
+  {
+   "name": "widehat",
+   "insertText": "\\widehat{${1}}",
+   "category": "Accent",
+   "description": "Wide hat",
+   "glyph": "x̂"
+  },
+  {
+   "name": "widetilde",
+   "insertText": "\\widetilde{${1}}",
+   "category": "Accent",
+   "description": "Wide tilde",
+   "glyph": "x̃"
+  },
+  {
+   "name": "overrightarrow",
+   "insertText": "\\overrightarrow{${1}}",
+   "category": "Accent",
+   "description": "Right arrow over an expression",
+   "glyph": "x⃗"
+  },
+  {
+   "name": "overleftarrow",
+   "insertText": "\\overleftarrow{${1}}",
+   "category": "Accent",
+   "description": "Left arrow over an expression",
+   "glyph": "x⃖"
+  },
+  {
+   "name": "overleftrightarrow",
+   "insertText": "\\overleftrightarrow{${1}}",
+   "category": "Accent",
+   "description": "Double arrow over an expression",
+   "glyph": "x⃡"
+  },
+  {
+   "name": "mathbb",
+   "insertText": "\\mathbb{${1}}",
+   "category": "Font",
+   "description": "Blackboard bold (ℝ, ℕ, ℤ…)",
+   "glyph": "ℝ",
+   "priority": 10
+  },
+  {
+   "name": "mathcal",
+   "insertText": "\\mathcal{${1}}",
+   "category": "Font",
+   "description": "Calligraphic letters",
+   "glyph": "𝒞"
+  },
+  {
+   "name": "mathfrak",
+   "insertText": "\\mathfrak{${1}}",
+   "category": "Font",
+   "description": "Fraktur letters",
+   "glyph": "𝔉"
+  },
+  {
+   "name": "mathscr",
+   "insertText": "\\mathscr{${1}}",
+   "category": "Font",
+   "description": "Script letters",
+   "glyph": "𝒮"
+  },
+  {
+   "name": "mathrm",
+   "insertText": "\\mathrm{${1}}",
+   "category": "Font",
+   "description": "Upright roman"
+  },
+  {
+   "name": "mathbf",
+   "insertText": "\\mathbf{${1}}",
+   "category": "Font",
+   "description": "Bold",
+   "glyph": "𝐁",
+   "priority": 10
+  },
+  {
+   "name": "mathit",
+   "insertText": "\\mathit{${1}}",
+   "category": "Font",
+   "description": "Italic",
+   "glyph": "𝐼"
+  },
+  {
+   "name": "mathsf",
+   "insertText": "\\mathsf{${1}}",
+   "category": "Font",
+   "description": "Sans-serif",
+   "glyph": "𝖲"
+  },
+  {
+   "name": "mathtt",
+   "insertText": "\\mathtt{${1}}",
+   "category": "Font",
+   "description": "Monospace",
+   "glyph": "𝚃"
+  },
+  {
+   "name": "boldsymbol",
+   "insertText": "\\boldsymbol{${1}}",
+   "category": "Font",
+   "description": "Bold symbol (also Greek)",
+   "glyph": "𝜶"
+  },
+  {
+   "name": "text",
+   "insertText": "\\text{${1}}",
+   "category": "Font",
+   "description": "Upright text",
+   "priority": 10
+  },
+  {
+   "name": "textbf",
+   "insertText": "\\textbf{${1}}",
+   "category": "Font",
+   "description": "Bold text"
+  },
+  {
+   "name": "textit",
+   "insertText": "\\textit{${1}}",
+   "category": "Font",
+   "description": "Italic text"
+  },
+  {
+   "name": "textrm",
+   "insertText": "\\textrm{${1}}",
+   "category": "Font",
+   "description": "Roman text"
+  },
+  {
+   "name": "texttt",
+   "insertText": "\\texttt{${1}}",
+   "category": "Font",
+   "description": "Monospace text"
+  },
+  {
+   "name": "mbox",
+   "insertText": "\\mbox{${1}}",
+   "category": "Font",
+   "description": "Text box"
+  },
+  {
+   "name": "pmb",
+   "insertText": "\\pmb{${1}}",
+   "category": "Font",
+   "description": "Poor man's bold"
+  },
+  {
+   "name": "left(",
+   "insertText": "\\left( ${1} \\right)",
+   "category": "Delimiter",
+   "description": "Auto-sized parentheses",
+   "glyph": "(…)",
+   "label": "\\left( … \\right)",
+   "priority": 10
+  },
+  {
+   "name": "left[",
+   "insertText": "\\left[ ${1} \\right]",
+   "category": "Delimiter",
+   "description": "Auto-sized brackets",
+   "glyph": "[…]",
+   "label": "\\left[ … \\right]"
+  },
+  {
+   "name": "left{",
+   "insertText": "\\left\\{ ${1} \\right\\}",
+   "category": "Delimiter",
+   "description": "Auto-sized braces",
+   "glyph": "{…}",
+   "label": "\\left\\{ … \\right\\}"
+  },
+  {
+   "name": "left|",
+   "insertText": "\\left| ${1} \\right|",
+   "category": "Delimiter",
+   "description": "Auto-sized absolute value",
+   "glyph": "|…|",
+   "label": "\\left| … \\right|"
+  },
+  {
+   "name": "left\\|",
+   "insertText": "\\left\\| ${1} \\right\\|",
+   "category": "Delimiter",
+   "description": "Auto-sized norm",
+   "glyph": "‖…‖",
+   "label": "\\left\\| … \\right\\|"
+  },
+  {
+   "name": "leftlangle",
+   "insertText": "\\left\\langle ${1} \\right\\rangle",
+   "category": "Delimiter",
+   "description": "Auto-sized angle brackets",
+   "glyph": "⟨…⟩",
+   "label": "\\left\\langle … \\right\\rangle"
+  },
+  {
+   "name": "leftlfloor",
+   "insertText": "\\left\\lfloor ${1} \\right\\rfloor",
+   "category": "Delimiter",
+   "description": "Auto-sized floor",
+   "glyph": "⌊…⌋",
+   "label": "\\left\\lfloor … \\right\\rfloor"
+  },
+  {
+   "name": "leftlceil",
+   "insertText": "\\left\\lceil ${1} \\right\\rceil",
+   "category": "Delimiter",
+   "description": "Auto-sized ceiling",
+   "glyph": "⌈…⌉",
+   "label": "\\left\\lceil … \\right\\rceil"
+  },
+  {
+   "name": "left.",
+   "insertText": "\\left. ${1} \\right|",
+   "category": "Delimiter",
+   "description": "Evaluation bar",
+   "glyph": "…|",
+   "label": "\\left. … \\right|"
+  },
+  {
+   "name": "left",
+   "insertText": "\\left",
+   "category": "Delimiter",
+   "description": "Auto-sized left delimiter"
+  },
+  {
+   "name": "right",
+   "insertText": "\\right",
+   "category": "Delimiter",
+   "description": "Auto-sized right delimiter"
+  },
+  {
+   "name": "middle",
+   "insertText": "\\middle|",
+   "category": "Delimiter",
+   "description": "Auto-sized middle delimiter"
+  },
+  {
+   "name": "langle",
+   "insertText": "\\langle",
+   "category": "Delimiter",
+   "description": "Left angle bracket",
+   "glyph": "⟨"
+  },
+  {
+   "name": "rangle",
+   "insertText": "\\rangle",
+   "category": "Delimiter",
+   "description": "Right angle bracket",
+   "glyph": "⟩"
+  },
+  {
+   "name": "lfloor",
+   "insertText": "\\lfloor",
+   "category": "Delimiter",
+   "description": "Left floor",
+   "glyph": "⌊"
+  },
+  {
+   "name": "rfloor",
+   "insertText": "\\rfloor",
+   "category": "Delimiter",
+   "description": "Right floor",
+   "glyph": "⌋"
+  },
+  {
+   "name": "lceil",
+   "insertText": "\\lceil",
+   "category": "Delimiter",
+   "description": "Left ceiling",
+   "glyph": "⌈"
+  },
+  {
+   "name": "rceil",
+   "insertText": "\\rceil",
+   "category": "Delimiter",
+   "description": "Right ceiling",
+   "glyph": "⌉"
+  },
+  {
+   "name": "lvert",
+   "insertText": "\\lvert",
+   "category": "Delimiter",
+   "description": "Left vertical bar",
+   "glyph": "|"
+  },
+  {
+   "name": "rvert",
+   "insertText": "\\rvert",
+   "category": "Delimiter",
+   "description": "Right vertical bar",
+   "glyph": "|"
+  },
+  {
+   "name": "lVert",
+   "insertText": "\\lVert",
+   "category": "Delimiter",
+   "description": "Left double bar",
+   "glyph": "‖"
+  },
+  {
+   "name": "rVert",
+   "insertText": "\\rVert",
+   "category": "Delimiter",
+   "description": "Right double bar",
+   "glyph": "‖"
+  },
+  {
+   "name": "vert",
+   "insertText": "\\vert",
+   "category": "Delimiter",
+   "description": "Vertical bar",
+   "glyph": "|"
+  },
+  {
+   "name": "Vert",
+   "insertText": "\\Vert",
+   "category": "Delimiter",
+   "description": "Double vertical bar",
+   "glyph": "‖"
+  },
+  {
+   "name": "lbrace",
+   "insertText": "\\lbrace",
+   "category": "Delimiter",
+   "description": "Left brace",
+   "glyph": "{"
+  },
+  {
+   "name": "rbrace",
+   "insertText": "\\rbrace",
+   "category": "Delimiter",
+   "description": "Right brace",
+   "glyph": "}"
+  },
+  {
+   "name": "backslash",
+   "insertText": "\\backslash",
+   "category": "Delimiter",
+   "description": "Backslash",
+   "glyph": "\\"
+  },
+  {
+   "name": "|",
+   "insertText": "\\|",
+   "category": "Delimiter",
+   "description": "Double vertical bar (norm)",
+   "glyph": "‖"
+  },
+  {
+   "name": "{",
+   "insertText": "\\{",
+   "category": "Delimiter",
+   "description": "Literal left brace",
+   "glyph": "{"
+  },
+  {
+   "name": "}",
+   "insertText": "\\}",
+   "category": "Delimiter",
+   "description": "Literal right brace",
+   "glyph": "}"
+  },
+  {
+   "name": "big",
+   "insertText": "\\big",
+   "category": "Delimiter",
+   "description": "Bigger delimiter"
+  },
+  {
+   "name": "Big",
+   "insertText": "\\Big",
+   "category": "Delimiter",
+   "description": "Even bigger delimiter"
+  },
+  {
+   "name": "bigg",
+   "insertText": "\\bigg",
+   "category": "Delimiter",
+   "description": "Large delimiter"
+  },
+  {
+   "name": "Bigg",
+   "insertText": "\\Bigg",
+   "category": "Delimiter",
+   "description": "Largest delimiter"
+  },
+  {
+   "name": "bigl",
+   "insertText": "\\bigl",
+   "category": "Delimiter",
+   "description": "Bigger left delimiter"
+  },
+  {
+   "name": "bigr",
+   "insertText": "\\bigr",
+   "category": "Delimiter",
+   "description": "Bigger right delimiter"
+  },
+  {
+   "name": "Bigl",
+   "insertText": "\\Bigl",
+   "category": "Delimiter",
+   "description": "Even bigger left delimiter"
+  },
+  {
+   "name": "Bigr",
+   "insertText": "\\Bigr",
+   "category": "Delimiter",
+   "description": "Even bigger right delimiter"
+  },
+  {
+   "name": "quad",
+   "insertText": "\\quad",
+   "category": "Spacing",
+   "description": "1em space",
+   "priority": 10
+  },
+  {
+   "name": "qquad",
+   "insertText": "\\qquad",
+   "category": "Spacing",
+   "description": "2em space"
+  },
+  {
+   "name": ",",
+   "insertText": "\\,",
+   "category": "Spacing",
+   "description": "Thin space (3/18 em)"
+  },
+  {
+   "name": ":",
+   "insertText": "\\:",
+   "category": "Spacing",
+   "description": "Medium space (4/18 em)"
+  },
+  {
+   "name": ";",
+   "insertText": "\\;",
+   "category": "Spacing",
+   "description": "Thick space (5/18 em)"
+  },
+  {
+   "name": "!",
+   "insertText": "\\!",
+   "category": "Spacing",
+   "description": "Negative thin space"
+  },
+  {
+   "name": "enspace",
+   "insertText": "\\enspace",
+   "category": "Spacing",
+   "description": "0.5em space"
+  },
+  {
+   "name": "thinspace",
+   "insertText": "\\thinspace",
+   "category": "Spacing",
+   "description": "Thin space"
+  },
+  {
+   "name": "negthinspace",
+   "insertText": "\\negthinspace",
+   "category": "Spacing",
+   "description": "Negative thin space"
+  },
+  {
+   "name": "hspace",
+   "insertText": "\\hspace{${1:1em}}",
+   "category": "Spacing",
+   "description": "Horizontal space of a given width"
+  },
+  {
+   "name": "kern",
+   "insertText": "\\kern${1:1em}",
+   "category": "Spacing",
+   "description": "Kern by a given width"
+  },
+  {
+   "name": "infty",
+   "insertText": "\\infty",
+   "category": "Symbol",
+   "description": "Infinity",
+   "glyph": "∞",
+   "priority": 10
+  },
+  {
+   "name": "partial",
+   "insertText": "\\partial",
+   "category": "Symbol",
+   "description": "Partial derivative",
+   "glyph": "∂",
+   "priority": 10
+  },
+  {
+   "name": "nabla",
+   "insertText": "\\nabla",
+   "category": "Symbol",
+   "description": "Nabla / gradient",
+   "glyph": "∇"
+  },
+  {
+   "name": "hbar",
+   "insertText": "\\hbar",
+   "category": "Symbol",
+   "description": "Reduced Planck constant",
+   "glyph": "ℏ"
+  },
+  {
+   "name": "hslash",
+   "insertText": "\\hslash",
+   "category": "Symbol",
+   "description": "h-slash",
+   "glyph": "ℏ"
+  },
+  {
+   "name": "ell",
+   "insertText": "\\ell",
+   "category": "Symbol",
+   "description": "Script l",
+   "glyph": "ℓ"
+  },
+  {
+   "name": "Re",
+   "insertText": "\\Re",
+   "category": "Symbol",
+   "description": "Real part",
+   "glyph": "ℜ"
+  },
+  {
+   "name": "Im",
+   "insertText": "\\Im",
+   "category": "Symbol",
+   "description": "Imaginary part",
+   "glyph": "ℑ"
+  },
+  {
+   "name": "aleph",
+   "insertText": "\\aleph",
+   "category": "Symbol",
+   "description": "Aleph",
+   "glyph": "ℵ"
+  },
+  {
+   "name": "beth",
+   "insertText": "\\beth",
+   "category": "Symbol",
+   "description": "Beth",
+   "glyph": "ℶ"
+  },
+  {
+   "name": "gimel",
+   "insertText": "\\gimel",
+   "category": "Symbol",
+   "description": "Gimel",
+   "glyph": "ℷ"
+  },
+  {
+   "name": "wp",
+   "insertText": "\\wp",
+   "category": "Symbol",
+   "description": "Weierstrass p",
+   "glyph": "℘"
+  },
+  {
+   "name": "imath",
+   "insertText": "\\imath",
+   "category": "Symbol",
+   "description": "Dotless i",
+   "glyph": "ı"
+  },
+  {
+   "name": "jmath",
+   "insertText": "\\jmath",
+   "category": "Symbol",
+   "description": "Dotless j",
+   "glyph": "ȷ"
+  },
+  {
+   "name": "cdots",
+   "insertText": "\\cdots",
+   "category": "Symbol",
+   "description": "Centered dots",
+   "glyph": "⋯",
+   "priority": 10
+  },
+  {
+   "name": "ldots",
+   "insertText": "\\ldots",
+   "category": "Symbol",
+   "description": "Lower dots",
+   "glyph": "…",
+   "priority": 10
+  },
+  {
+   "name": "dots",
+   "insertText": "\\dots",
+   "category": "Symbol",
+   "description": "Dots",
+   "glyph": "…"
+  },
+  {
+   "name": "vdots",
+   "insertText": "\\vdots",
+   "category": "Symbol",
+   "description": "Vertical dots",
+   "glyph": "⋮"
+  },
+  {
+   "name": "ddots",
+   "insertText": "\\ddots",
+   "category": "Symbol",
+   "description": "Diagonal dots",
+   "glyph": "⋱"
+  },
+  {
+   "name": "prime",
+   "insertText": "\\prime",
+   "category": "Symbol",
+   "description": "Prime",
+   "glyph": "′"
+  },
+  {
+   "name": "angle",
+   "insertText": "\\angle",
+   "category": "Symbol",
+   "description": "Angle",
+   "glyph": "∠"
+  },
+  {
+   "name": "measuredangle",
+   "insertText": "\\measuredangle",
+   "category": "Symbol",
+   "description": "Measured angle",
+   "glyph": "∡"
+  },
+  {
+   "name": "triangle",
+   "insertText": "\\triangle",
+   "category": "Symbol",
+   "description": "Triangle",
+   "glyph": "△"
+  },
+  {
+   "name": "square",
+   "insertText": "\\square",
+   "category": "Symbol",
+   "description": "Square",
+   "glyph": "□"
+  },
+  {
+   "name": "blacksquare",
+   "insertText": "\\blacksquare",
+   "category": "Symbol",
+   "description": "Filled square",
+   "glyph": "■"
+  },
+  {
+   "name": "surd",
+   "insertText": "\\surd",
+   "category": "Symbol",
+   "description": "Radical sign",
+   "glyph": "√"
+  },
+  {
+   "name": "clubsuit",
+   "insertText": "\\clubsuit",
+   "category": "Symbol",
+   "description": "Club suit",
+   "glyph": "♣"
+  },
+  {
+   "name": "diamondsuit",
+   "insertText": "\\diamondsuit",
+   "category": "Symbol",
+   "description": "Diamond suit",
+   "glyph": "♢"
+  },
+  {
+   "name": "heartsuit",
+   "insertText": "\\heartsuit",
+   "category": "Symbol",
+   "description": "Heart suit",
+   "glyph": "♡"
+  },
+  {
+   "name": "spadesuit",
+   "insertText": "\\spadesuit",
+   "category": "Symbol",
+   "description": "Spade suit",
+   "glyph": "♠"
+  },
+  {
+   "name": "flat",
+   "insertText": "\\flat",
+   "category": "Symbol",
+   "description": "Flat",
+   "glyph": "♭"
+  },
+  {
+   "name": "natural",
+   "insertText": "\\natural",
+   "category": "Symbol",
+   "description": "Natural",
+   "glyph": "♮"
+  },
+  {
+   "name": "sharp",
+   "insertText": "\\sharp",
+   "category": "Symbol",
+   "description": "Sharp",
+   "glyph": "♯"
+  },
+  {
+   "name": "checkmark",
+   "insertText": "\\checkmark",
+   "category": "Symbol",
+   "description": "Check mark",
+   "glyph": "✓"
+  },
+  {
+   "name": "S",
+   "insertText": "\\S",
+   "category": "Symbol",
+   "description": "Section sign",
+   "glyph": "§"
+  },
+  {
+   "name": "mho",
+   "insertText": "\\mho",
+   "category": "Symbol",
+   "description": "Mho",
+   "glyph": "℧"
+  },
+  {
+   "name": "eth",
+   "insertText": "\\eth",
+   "category": "Symbol",
+   "description": "Eth",
+   "glyph": "ð"
+  },
+  {
+   "name": "Finv",
+   "insertText": "\\Finv",
+   "category": "Symbol",
+   "description": "Turned F",
+   "glyph": "Ⅎ"
+  },
+  {
+   "name": "Game",
+   "insertText": "\\Game",
+   "category": "Symbol",
+   "description": "Turned G",
+   "glyph": "⅁"
+  },
+  {
+   "name": "lozenge",
+   "insertText": "\\lozenge",
+   "category": "Symbol",
+   "description": "Lozenge",
+   "glyph": "◊"
+  },
+  {
+   "name": "blacklozenge",
+   "insertText": "\\blacklozenge",
+   "category": "Symbol",
+   "description": "Filled lozenge",
+   "glyph": "⧫"
+  },
+  {
+   "name": "bigstar",
+   "insertText": "\\bigstar",
+   "category": "Symbol",
+   "description": "Big star",
+   "glyph": "★"
+  },
+  {
+   "name": "Bbbk",
+   "insertText": "\\Bbbk",
+   "category": "Symbol",
+   "description": "Blackboard k",
+   "glyph": "𝕜"
+  },
+  {
+   "name": "diagup",
+   "insertText": "\\diagup",
+   "category": "Symbol",
+   "description": "Diagonal up",
+   "glyph": "╱"
+  },
+  {
+   "name": "diagdown",
+   "insertText": "\\diagdown",
+   "category": "Symbol",
+   "description": "Diagonal down",
+   "glyph": "╲"
+  },
+  {
+   "name": "backprime",
+   "insertText": "\\backprime",
+   "category": "Symbol",
+   "description": "Reversed prime",
+   "glyph": "‵"
+  },
+  {
+   "name": "circledS",
+   "insertText": "\\circledS",
+   "category": "Symbol",
+   "description": "Circled S",
+   "glyph": "Ⓢ"
+  },
+  {
+   "name": "#",
+   "insertText": "\\#",
+   "category": "Symbol",
+   "description": "Literal hash",
+   "glyph": "#"
+  },
+  {
+   "name": "%",
+   "insertText": "\\%",
+   "category": "Symbol",
+   "description": "Literal percent",
+   "glyph": "%"
+  },
+  {
+   "name": "&",
+   "insertText": "\\&",
+   "category": "Symbol",
+   "description": "Literal ampersand",
+   "glyph": "&"
+  },
+  {
+   "name": "_",
+   "insertText": "\\_",
+   "category": "Symbol",
+   "description": "Literal underscore",
+   "glyph": "_"
+  },
+  {
+   "name": "$",
+   "insertText": "\\\\$",
+   "category": "Symbol",
+   "description": "Literal dollar sign",
+   "glyph": "$"
+  },
+  {
+   "name": "degree",
+   "insertText": "\\degree",
+   "category": "Symbol",
+   "description": "Degree sign",
+   "glyph": "°",
+   "requires": "gensymb"
+  },
+  {
+   "name": "celsius",
+   "insertText": "\\celsius",
+   "category": "Symbol",
+   "description": "Degree Celsius",
+   "glyph": "℃",
+   "requires": "gensymb"
+  },
+  {
+   "name": "ohm",
+   "insertText": "\\ohm",
+   "category": "Symbol",
+   "description": "Ohm",
+   "glyph": "Ω",
+   "requires": "gensymb"
+  },
+  {
+   "name": "micro",
+   "insertText": "\\micro",
+   "category": "Symbol",
+   "description": "Micro sign",
+   "glyph": "µ",
+   "requires": "gensymb"
+  },
+  {
+   "name": "perthousand",
+   "insertText": "\\perthousand",
+   "category": "Symbol",
+   "description": "Per mille",
+   "glyph": "‰",
+   "requires": "gensymb"
+  },
+  {
+   "name": "tag",
+   "insertText": "\\tag{${1}}",
+   "category": "Formatting",
+   "description": "Equation tag"
+  },
+  {
+   "name": "tag*",
+   "insertText": "\\tag*{${1}}",
+   "category": "Formatting",
+   "description": "Equation tag without parentheses",
+   "label": "\\tag*{…}"
+  },
+  {
+   "name": "label",
+   "insertText": "\\label{${1}}",
+   "category": "Formatting",
+   "description": "Label for references"
+  },
+  {
+   "name": "eqref",
+   "insertText": "\\eqref{${1}}",
+   "category": "Formatting",
+   "description": "Reference an equation"
+  },
+  {
+   "name": "ref",
+   "insertText": "\\ref{${1}}",
+   "category": "Formatting",
+   "description": "Reference a label"
+  },
+  {
+   "name": "color",
+   "insertText": "{\\color{${1:red}} ${2}}",
+   "category": "Formatting",
+   "description": "Color the rest of a group",
+   "label": "\\color{…} …"
+  },
+  {
+   "name": "textcolor",
+   "insertText": "\\textcolor{${1:red}}{${2}}",
+   "category": "Formatting",
+   "description": "Colored expression"
+  },
+  {
+   "name": "colorbox",
+   "insertText": "\\colorbox{${1:yellow}}{${2}}",
+   "category": "Formatting",
+   "description": "Colored background box"
+  },
+  {
+   "name": "cancel",
+   "insertText": "\\cancel{${1}}",
+   "category": "Formatting",
+   "description": "Diagonal strike-through",
+   "glyph": "x̸",
+   "requires": "cancel"
+  },
+  {
+   "name": "bcancel",
+   "insertText": "\\bcancel{${1}}",
+   "category": "Formatting",
+   "description": "Back-diagonal strike-through",
+   "requires": "cancel"
+  },
+  {
+   "name": "xcancel",
+   "insertText": "\\xcancel{${1}}",
+   "category": "Formatting",
+   "description": "Cross strike-through",
+   "requires": "cancel"
+  },
+  {
+   "name": "cancelto",
+   "insertText": "\\cancelto{${1:0}}{${2}}",
+   "category": "Formatting",
+   "description": "Strike through with an arrow to a value",
+   "requires": "cancel"
+  },
+  {
+   "name": "bra",
+   "insertText": "\\bra{${1}}",
+   "category": "Formatting",
+   "description": "Bra vector",
+   "glyph": "⟨|",
+   "requires": "braket"
+  },
+  {
+   "name": "ket",
+   "insertText": "\\ket{${1}}",
+   "category": "Formatting",
+   "description": "Ket vector",
+   "glyph": "|⟩",
+   "requires": "braket"
+  },
+  {
+   "name": "braket",
+   "insertText": "\\braket{${1}|${2}}",
+   "category": "Formatting",
+   "description": "Bra-ket inner product",
+   "glyph": "⟨|⟩",
+   "requires": "braket"
+  },
+  {
+   "name": "ce",
+   "insertText": "\\ce{${1:H2O}}",
+   "category": "Formatting",
+   "description": "Chemical formula",
+   "requires": "mhchem"
+  },
+  {
+   "name": "end",
+   "insertText": "\\end{${1}}",
+   "category": "Formatting",
+   "description": "End an environment"
+  }
+ ],
+ "environments": [
+  {
+   "name": "aligned",
+   "description": "Aligned equations inside display math (use & and \\\\)"
+  },
+  {
+   "name": "align",
+   "description": "Numbered aligned equations"
+  },
+  {
+   "name": "align*",
+   "description": "Aligned equations without numbers"
+  },
+  {
+   "name": "alignat",
+   "description": "Aligned columns with explicit spacing",
+   "argument": "{${1:2}}"
+  },
+  {
+   "name": "gather",
+   "description": "Centered equations"
+  },
+  {
+   "name": "gather*",
+   "description": "Centered equations without numbers"
+  },
+  {
+   "name": "gathered",
+   "description": "Centered equations inside display math"
+  },
+  {
+   "name": "cases",
+   "description": "Piecewise definition"
+  },
+  {
+   "name": "matrix",
+   "description": "Matrix without delimiters"
+  },
+  {
+   "name": "pmatrix",
+   "description": "Matrix in parentheses"
+  },
+  {
+   "name": "bmatrix",
+   "description": "Matrix in brackets"
+  },
+  {
+   "name": "Bmatrix",
+   "description": "Matrix in braces"
+  },
+  {
+   "name": "vmatrix",
+   "description": "Determinant (single bars)"
+  },
+  {
+   "name": "Vmatrix",
+   "description": "Norm (double bars)"
+  },
+  {
+   "name": "smallmatrix",
+   "description": "Inline-sized matrix"
+  },
+  {
+   "name": "array",
+   "description": "Array with column specification",
+   "argument": "{${1:cc}}"
+  },
+  {
+   "name": "split",
+   "description": "Split a single equation over lines"
+  },
+  {
+   "name": "multline",
+   "description": "Multi-line equation"
+  },
+  {
+   "name": "equation",
+   "description": "Numbered equation"
+  },
+  {
+   "name": "equation*",
+   "description": "Equation without number"
+  },
+  {
+   "name": "CD",
+   "description": "Commutative diagram"
+  }
+ ]
+}

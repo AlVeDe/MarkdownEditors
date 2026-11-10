@@ -1,0 +1,1645 @@
+{
+  "arrows" : {
+    "architecture" : [
+      {
+        "detail" : "edge",
+        "doc" : "",
+        "insert" : "--",
+        "label" : "--"
+      },
+      {
+        "detail" : "edge with arrow",
+        "doc" : "",
+        "insert" : "-->",
+        "label" : "-->"
+      },
+      {
+        "detail" : "bidirectional",
+        "doc" : "",
+        "insert" : "<-->",
+        "label" : "<-->"
+      }
+    ],
+    "block" : [
+      {
+        "detail" : "arrow",
+        "doc" : "",
+        "insert" : "-->",
+        "label" : "-->"
+      }
+    ],
+    "classDiagram" : [
+      {
+        "detail" : "inheritance",
+        "doc" : "",
+        "insert" : "<|--",
+        "label" : "<|--"
+      },
+      {
+        "detail" : "composition",
+        "doc" : "",
+        "insert" : "*--",
+        "label" : "*--"
+      },
+      {
+        "detail" : "aggregation",
+        "doc" : "",
+        "insert" : "o--",
+        "label" : "o--"
+      },
+      {
+        "detail" : "association",
+        "doc" : "",
+        "insert" : "-->",
+        "label" : "-->"
+      },
+      {
+        "detail" : "dependency",
+        "doc" : "",
+        "insert" : "..>",
+        "label" : "..>"
+      },
+      {
+        "detail" : "realization",
+        "doc" : "",
+        "insert" : "..|>",
+        "label" : "..|>"
+      },
+      {
+        "detail" : "realization (reversed)",
+        "doc" : "",
+        "insert" : "<|..",
+        "label" : "<|.."
+      },
+      {
+        "detail" : "link (solid)",
+        "doc" : "",
+        "insert" : "--",
+        "label" : "--"
+      },
+      {
+        "detail" : "link (dashed)",
+        "doc" : "",
+        "insert" : "..",
+        "label" : ".."
+      }
+    ],
+    "er" : [
+      {
+        "detail" : "one to one",
+        "doc" : "",
+        "insert" : "||--||",
+        "label" : "||--||"
+      },
+      {
+        "detail" : "one to zero or more",
+        "doc" : "",
+        "insert" : "||--o{",
+        "label" : "||--o{"
+      },
+      {
+        "detail" : "one to one or more",
+        "doc" : "",
+        "insert" : "||--|{",
+        "label" : "||--|{"
+      },
+      {
+        "detail" : "zero or one to zero or more",
+        "doc" : "",
+        "insert" : "|o--o{",
+        "label" : "|o--o{"
+      },
+      {
+        "detail" : "many to many",
+        "doc" : "",
+        "insert" : "}o--o{",
+        "label" : "}o--o{"
+      },
+      {
+        "detail" : "zero or one to zero or one",
+        "doc" : "",
+        "insert" : "|o--o|",
+        "label" : "|o--o|"
+      },
+      {
+        "detail" : "one to zero or more (non-identifying)",
+        "doc" : "",
+        "insert" : "||..o{",
+        "label" : "||..o{"
+      },
+      {
+        "detail" : "one or more to one or more (non-identifying)",
+        "doc" : "",
+        "insert" : "}|..|{",
+        "label" : "}|..|{"
+      }
+    ],
+    "flowchart" : [
+      {
+        "detail" : "arrow",
+        "doc" : "",
+        "insert" : "-->",
+        "label" : "-->"
+      },
+      {
+        "detail" : "open link",
+        "doc" : "",
+        "insert" : "---",
+        "label" : "---"
+      },
+      {
+        "detail" : "dotted arrow",
+        "doc" : "",
+        "insert" : "-.->",
+        "label" : "-.->"
+      },
+      {
+        "detail" : "dotted link",
+        "doc" : "",
+        "insert" : "-.-",
+        "label" : "-.-"
+      },
+      {
+        "detail" : "thick arrow",
+        "doc" : "",
+        "insert" : "==>",
+        "label" : "==>"
+      },
+      {
+        "detail" : "thick link",
+        "doc" : "",
+        "insert" : "===",
+        "label" : "==="
+      },
+      {
+        "detail" : "arrow with label",
+        "doc" : "",
+        "insert" : "-->|${1:text}| ",
+        "label" : "-->|text|"
+      },
+      {
+        "detail" : "arrow with label",
+        "doc" : "",
+        "insert" : "-- ${1:text} --> ",
+        "label" : "-- text -->"
+      },
+      {
+        "detail" : "circle end",
+        "doc" : "",
+        "insert" : "--o",
+        "label" : "--o"
+      },
+      {
+        "detail" : "cross end",
+        "doc" : "",
+        "insert" : "--x",
+        "label" : "--x"
+      },
+      {
+        "detail" : "bidirectional",
+        "doc" : "",
+        "insert" : "<-->",
+        "label" : "<-->"
+      },
+      {
+        "detail" : "circle both ends",
+        "doc" : "",
+        "insert" : "o--o",
+        "label" : "o--o"
+      },
+      {
+        "detail" : "cross both ends",
+        "doc" : "",
+        "insert" : "x--x",
+        "label" : "x--x"
+      },
+      {
+        "detail" : "invisible link",
+        "doc" : "Influences layout without drawing a line.",
+        "insert" : "~~~",
+        "label" : "~~~"
+      }
+    ],
+    "gantt" : [
+
+    ],
+    "gitGraph" : [
+
+    ],
+    "journey" : [
+
+    ],
+    "kanban" : [
+
+    ],
+    "mindmap" : [
+
+    ],
+    "packet" : [
+
+    ],
+    "pie" : [
+
+    ],
+    "quadrant" : [
+      {
+        "detail" : "arrow",
+        "doc" : "",
+        "insert" : "-->",
+        "label" : "-->"
+      }
+    ],
+    "radar" : [
+
+    ],
+    "requirement" : [
+      {
+        "detail" : "relationship",
+        "doc" : "contains, copies, derives, satisfies, verifies, refines, traces",
+        "insert" : "- ${1:satisfies} -> ",
+        "label" : "- satisfies ->"
+      }
+    ],
+    "sankey" : [
+
+    ],
+    "sequence" : [
+      {
+        "detail" : "solid arrow",
+        "doc" : "",
+        "insert" : "->>",
+        "label" : "->>"
+      },
+      {
+        "detail" : "dotted arrow",
+        "doc" : "",
+        "insert" : "-->>",
+        "label" : "-->>"
+      },
+      {
+        "detail" : "solid line, no head",
+        "doc" : "",
+        "insert" : "->",
+        "label" : "->"
+      },
+      {
+        "detail" : "dotted line, no head",
+        "doc" : "",
+        "insert" : "-->",
+        "label" : "-->"
+      },
+      {
+        "detail" : "solid, cross end",
+        "doc" : "",
+        "insert" : "-x",
+        "label" : "-x"
+      },
+      {
+        "detail" : "dotted, cross end",
+        "doc" : "",
+        "insert" : "--x",
+        "label" : "--x"
+      },
+      {
+        "detail" : "solid, async",
+        "doc" : "",
+        "insert" : "-)",
+        "label" : "-)"
+      },
+      {
+        "detail" : "dotted, async",
+        "doc" : "",
+        "insert" : "--)",
+        "label" : "--)"
+      },
+      {
+        "detail" : "solid bidirectional",
+        "doc" : "",
+        "insert" : "<<->>",
+        "label" : "<<->>"
+      },
+      {
+        "detail" : "dotted bidirectional",
+        "doc" : "",
+        "insert" : "<<-->>",
+        "label" : "<<-->>"
+      },
+      {
+        "detail" : "message and activate target",
+        "doc" : "",
+        "insert" : "->>+",
+        "label" : "->>+"
+      },
+      {
+        "detail" : "reply and deactivate sender",
+        "doc" : "",
+        "insert" : "-->>-",
+        "label" : "-->>-"
+      }
+    ],
+    "state" : [
+      {
+        "detail" : "transition",
+        "doc" : "",
+        "insert" : "-->",
+        "label" : "-->"
+      }
+    ],
+    "timeline" : [
+
+    ],
+    "treemap" : [
+
+    ],
+    "xychart" : [
+      {
+        "detail" : "arrow",
+        "doc" : "",
+        "insert" : "-->",
+        "label" : "-->"
+      }
+    ]
+  },
+  "common" : [
+    {
+      "detail" : "init directive",
+      "doc" : "Per-diagram configuration. Themes: default, dark, forest, neutral, base.",
+      "insert" : "%%{init: {\"theme\": \"${1:default}\"}}%%",
+      "label" : "%%{init}%%"
+    },
+    {
+      "detail" : "comment",
+      "doc" : "A line starting with %% is ignored.",
+      "insert" : "%% ${1:comment}",
+      "label" : "%% comment"
+    },
+    {
+      "detail" : "accessibility title",
+      "doc" : "Title read by screen readers.",
+      "insert" : "accTitle: ${1:title}",
+      "label" : "accTitle"
+    },
+    {
+      "detail" : "accessibility description",
+      "doc" : "Description read by screen readers.",
+      "insert" : "accDescr: ${1:description}",
+      "label" : "accDescr"
+    },
+    {
+      "detail" : "multi-line description",
+      "doc" : "",
+      "insert" : "accDescr {\n\t${1:description}\n}",
+      "label" : "accDescr { }"
+    }
+  ],
+  "directions" : [
+    {
+      "detail" : "top down",
+      "doc" : "",
+      "insert" : "TD",
+      "label" : "TD"
+    },
+    {
+      "detail" : "top to bottom",
+      "doc" : "",
+      "insert" : "TB",
+      "label" : "TB"
+    },
+    {
+      "detail" : "bottom to top",
+      "doc" : "",
+      "insert" : "BT",
+      "label" : "BT"
+    },
+    {
+      "detail" : "left to right",
+      "doc" : "",
+      "insert" : "LR",
+      "label" : "LR"
+    },
+    {
+      "detail" : "right to left",
+      "doc" : "",
+      "insert" : "RL",
+      "label" : "RL"
+    }
+  ],
+  "gitGraphOrientations" : [
+    {
+      "detail" : "left to right",
+      "doc" : "",
+      "insert" : "LR:",
+      "label" : "LR:"
+    },
+    {
+      "detail" : "top to bottom",
+      "doc" : "",
+      "insert" : "TB:",
+      "label" : "TB:"
+    },
+    {
+      "detail" : "bottom to top",
+      "doc" : "",
+      "insert" : "BT:",
+      "label" : "BT:"
+    }
+  ],
+  "keywords" : {
+    "architecture" : [
+      {
+        "detail" : "group",
+        "doc" : "",
+        "insert" : "group ${1:id}(${2:cloud})[${3:Title}]",
+        "label" : "group"
+      },
+      {
+        "detail" : "service",
+        "doc" : "Icons: cloud, database, disk, internet, server.",
+        "insert" : "service ${1:id}(${2:server})[${3:Title}]",
+        "label" : "service"
+      },
+      {
+        "detail" : "service inside group",
+        "doc" : "",
+        "insert" : "service ${1:id}(${2:server})[${3:Title}] in ${4:group}",
+        "label" : "service in"
+      },
+      {
+        "detail" : "junction",
+        "doc" : "",
+        "insert" : "junction ${1:id}",
+        "label" : "junction"
+      },
+      {
+        "detail" : "edge between sides",
+        "doc" : "",
+        "insert" : "${1:a}:${2:R} -- ${3:L}:${4:b}",
+        "label" : "edge"
+      }
+    ],
+    "block" : [
+      {
+        "detail" : "column count",
+        "doc" : "",
+        "insert" : "columns ${1:3}",
+        "label" : "columns"
+      },
+      {
+        "detail" : "nested block",
+        "doc" : "",
+        "insert" : "block:${1:group}:${2:2}\n\t$0\nend",
+        "label" : "block"
+      },
+      {
+        "detail" : "empty cell",
+        "doc" : "",
+        "insert" : "space",
+        "label" : "space"
+      },
+      {
+        "detail" : "block with label",
+        "doc" : "",
+        "insert" : "${1:id}[\"${2:text}\"]",
+        "label" : "id[\"text\"]"
+      },
+      {
+        "detail" : "close block",
+        "doc" : "",
+        "insert" : "end",
+        "label" : "end"
+      }
+    ],
+    "classDiagram" : [
+      {
+        "detail" : "declare class",
+        "doc" : "",
+        "insert" : "class ${1:Name}",
+        "label" : "class"
+      },
+      {
+        "detail" : "class with members",
+        "doc" : "Visibility: + public, - private, # protected, ~ package. Suffix $ static, * abstract.",
+        "insert" : "class ${1:Name} {\n\t+${2:String} ${3:field}\n\t+${4:method}() ${5:void}\n}",
+        "label" : "class { }"
+      },
+      {
+        "detail" : "generic class",
+        "doc" : "",
+        "insert" : "class ${1:Name}~${2:T}~",
+        "label" : "class~T~"
+      },
+      {
+        "detail" : "annotation",
+        "doc" : "",
+        "insert" : "<<interface>>",
+        "label" : "<<interface>>"
+      },
+      {
+        "detail" : "annotation",
+        "doc" : "",
+        "insert" : "<<abstract>>",
+        "label" : "<<abstract>>"
+      },
+      {
+        "detail" : "annotation",
+        "doc" : "",
+        "insert" : "<<enumeration>>",
+        "label" : "<<enumeration>>"
+      },
+      {
+        "detail" : "annotation",
+        "doc" : "",
+        "insert" : "<<service>>",
+        "label" : "<<service>>"
+      },
+      {
+        "detail" : "add member",
+        "doc" : "",
+        "insert" : "${1:Name} : +${2:method}()",
+        "label" : "member"
+      },
+      {
+        "detail" : "relation with cardinality",
+        "doc" : "Cardinality: 1, 0..1, 1..*, *, n, 0..n, 1..n.",
+        "insert" : "${1:A} \"${2:1}\" --> \"${3:*}\" ${4:B} : ${5:label}",
+        "label" : "relation"
+      },
+      {
+        "detail" : "group classes",
+        "doc" : "",
+        "insert" : "namespace ${1:Name} {\n\t$0\n}",
+        "label" : "namespace"
+      },
+      {
+        "detail" : "diagram note",
+        "doc" : "",
+        "insert" : "note \"${1:text}\"",
+        "label" : "note"
+      },
+      {
+        "detail" : "class note",
+        "doc" : "",
+        "insert" : "note for ${1:Name} \"${2:text}\"",
+        "label" : "note for"
+      },
+      {
+        "detail" : "layout direction",
+        "doc" : "",
+        "insert" : "direction ${1:RL}",
+        "label" : "direction"
+      },
+      {
+        "detail" : "define style class",
+        "doc" : "",
+        "insert" : "classDef ${1:name} fill:${2:#f9f},stroke:${3:#333}",
+        "label" : "classDef"
+      },
+      {
+        "detail" : "style one class",
+        "doc" : "",
+        "insert" : "style ${1:Name} fill:${2:#f9f}",
+        "label" : "style"
+      },
+      {
+        "detail" : "link a class",
+        "doc" : "",
+        "insert" : "link ${1:Name} \"${2:https:\/\/}\" \"${3:tooltip}\"",
+        "label" : "link"
+      }
+    ],
+    "er" : [
+      {
+        "detail" : "entity with attributes",
+        "doc" : "Attribute keys: PK, FK, UK; a trailing \"comment\" is allowed.",
+        "insert" : "${1:ENTITY} {\n\t${2:string} ${3:name} ${4:PK}\n}",
+        "label" : "entity { }"
+      },
+      {
+        "detail" : "attribute",
+        "doc" : "",
+        "insert" : "${1:string} ${2:name}",
+        "label" : "attribute"
+      },
+      {
+        "detail" : "relationship",
+        "doc" : "Cardinality: |o zero or one, || exactly one, }o zero or more, }| one or more. -- identifying, .. non-identifying.",
+        "insert" : "${1:CUSTOMER} ||--o{ ${2:ORDER} : ${3:places}",
+        "label" : "relationship"
+      },
+      {
+        "detail" : "primary key",
+        "doc" : "",
+        "insert" : "PK",
+        "label" : "PK"
+      },
+      {
+        "detail" : "foreign key",
+        "doc" : "",
+        "insert" : "FK",
+        "label" : "FK"
+      },
+      {
+        "detail" : "unique key",
+        "doc" : "",
+        "insert" : "UK",
+        "label" : "UK"
+      }
+    ],
+    "flowchart" : [
+      {
+        "detail" : "group nodes",
+        "doc" : "A titled box around nodes; may contain `direction`.",
+        "insert" : "subgraph ${1:title}\n\t$0\nend",
+        "label" : "subgraph"
+      },
+      {
+        "detail" : "close subgraph",
+        "doc" : "",
+        "insert" : "end",
+        "label" : "end"
+      },
+      {
+        "detail" : "subgraph direction",
+        "doc" : "TB, TD, BT, LR or RL.",
+        "insert" : "direction ${1:LR}",
+        "label" : "direction"
+      },
+      {
+        "detail" : "rectangle",
+        "doc" : "",
+        "insert" : "${1:id}[${2:text}]",
+        "label" : "id[text]"
+      },
+      {
+        "detail" : "rounded rectangle",
+        "doc" : "",
+        "insert" : "${1:id}(${2:text})",
+        "label" : "id(text)"
+      },
+      {
+        "detail" : "stadium",
+        "doc" : "",
+        "insert" : "${1:id}([${2:text}])",
+        "label" : "id([text])"
+      },
+      {
+        "detail" : "subroutine",
+        "doc" : "",
+        "insert" : "${1:id}[[${2:text}]]",
+        "label" : "id[[text]]"
+      },
+      {
+        "detail" : "cylinder \/ database",
+        "doc" : "",
+        "insert" : "${1:id}[(${2:text})]",
+        "label" : "id[(text)]"
+      },
+      {
+        "detail" : "circle",
+        "doc" : "",
+        "insert" : "${1:id}((${2:text}))",
+        "label" : "id((text))"
+      },
+      {
+        "detail" : "rhombus \/ decision",
+        "doc" : "",
+        "insert" : "${1:id}{${2:text}}",
+        "label" : "id{text}"
+      },
+      {
+        "detail" : "hexagon",
+        "doc" : "",
+        "insert" : "${1:id}{{${2:text}}}",
+        "label" : "id{{text}}"
+      },
+      {
+        "detail" : "asymmetric \/ flag",
+        "doc" : "",
+        "insert" : "${1:id}>${2:text}]",
+        "label" : "id>text]"
+      },
+      {
+        "detail" : "parallelogram",
+        "doc" : "",
+        "insert" : "${1:id}[\/${2:text}\/]",
+        "label" : "id[\/text\/]"
+      },
+      {
+        "detail" : "v11 shape syntax",
+        "doc" : "Expanded shapes: rect, rounded, stadium, diamond, hex, cyl, circle, doc, notch-rect, …",
+        "insert" : "${1:id}@{ shape: ${2:rounded}, label: \"${3:text}\" }",
+        "label" : "id@{ shape }"
+      },
+      {
+        "detail" : "define style class",
+        "doc" : "",
+        "insert" : "classDef ${1:name} fill:${2:#f9f},stroke:${3:#333}",
+        "label" : "classDef"
+      },
+      {
+        "detail" : "apply style class",
+        "doc" : "Comma-separate several node ids.",
+        "insert" : "class ${1:nodeId} ${2:className}",
+        "label" : "class"
+      },
+      {
+        "detail" : "style one node",
+        "doc" : "",
+        "insert" : "style ${1:nodeId} fill:${2:#f9f},stroke:${3:#333},stroke-width:${4:2px}",
+        "label" : "style"
+      },
+      {
+        "detail" : "style an edge",
+        "doc" : "Edges are numbered from 0 in order of definition; `default` styles all.",
+        "insert" : "linkStyle ${1:0} stroke:${2:#f66},stroke-width:${3:2px}",
+        "label" : "linkStyle"
+      },
+      {
+        "detail" : "link a node",
+        "doc" : "",
+        "insert" : "click ${1:nodeId} href \"${2:https:\/\/}\" \"${3:tooltip}\"",
+        "label" : "click"
+      }
+    ],
+    "gantt" : [
+      {
+        "detail" : "chart title",
+        "doc" : "",
+        "insert" : "title ${1:Title}",
+        "label" : "title"
+      },
+      {
+        "detail" : "input date format",
+        "doc" : "",
+        "insert" : "dateFormat ${1:YYYY-MM-DD}",
+        "label" : "dateFormat"
+      },
+      {
+        "detail" : "axis label format",
+        "doc" : "d3 time format, e.g. %d.%m or %b %e.",
+        "insert" : "axisFormat ${1:%Y-%m-%d}",
+        "label" : "axisFormat"
+      },
+      {
+        "detail" : "axis tick interval",
+        "doc" : "",
+        "insert" : "tickInterval ${1:1week}",
+        "label" : "tickInterval"
+      },
+      {
+        "detail" : "group tasks",
+        "doc" : "",
+        "insert" : "section ${1:Section}",
+        "label" : "section"
+      },
+      {
+        "detail" : "task with id, start and duration",
+        "doc" : "",
+        "insert" : "${1:Task} :${2:a1}, ${3:2026-01-01}, ${4:3d}",
+        "label" : "task"
+      },
+      {
+        "detail" : "task starting after another",
+        "doc" : "",
+        "insert" : "${1:Task} :${2:a2}, after ${3:a1}, ${4:3d}",
+        "label" : "task after"
+      },
+      {
+        "detail" : "milestone",
+        "doc" : "",
+        "insert" : "${1:Milestone} :milestone, ${2:m1}, ${3:2026-01-01}, 0d",
+        "label" : "milestone"
+      },
+      {
+        "detail" : "start after task",
+        "doc" : "",
+        "insert" : "after ${1:a1}",
+        "label" : "after"
+      },
+      {
+        "detail" : "critical task tag",
+        "doc" : "",
+        "insert" : "crit",
+        "label" : "crit"
+      },
+      {
+        "detail" : "completed task tag",
+        "doc" : "",
+        "insert" : "done",
+        "label" : "done"
+      },
+      {
+        "detail" : "active task tag",
+        "doc" : "",
+        "insert" : "active",
+        "label" : "active"
+      },
+      {
+        "detail" : "skip dates",
+        "doc" : "weekends, weekday names or dates.",
+        "insert" : "excludes ${1:weekends}",
+        "label" : "excludes"
+      },
+      {
+        "detail" : "first weekend day",
+        "doc" : "",
+        "insert" : "weekend ${1:friday}",
+        "label" : "weekend"
+      },
+      {
+        "detail" : "today line",
+        "doc" : "off, or CSS such as stroke-width:5px.",
+        "insert" : "todayMarker ${1:off}",
+        "label" : "todayMarker"
+      },
+      {
+        "detail" : "end dates are inclusive",
+        "doc" : "",
+        "insert" : "inclusiveEndDates",
+        "label" : "inclusiveEndDates"
+      }
+    ],
+    "gitGraph" : [
+      {
+        "detail" : "commit",
+        "doc" : "",
+        "insert" : "commit",
+        "label" : "commit"
+      },
+      {
+        "detail" : "commit with id",
+        "doc" : "",
+        "insert" : "commit id: \"${1:id}\"",
+        "label" : "commit id"
+      },
+      {
+        "detail" : "tagged commit",
+        "doc" : "",
+        "insert" : "commit id: \"${1:id}\" tag: \"${2:v1.0}\"",
+        "label" : "commit tag"
+      },
+      {
+        "detail" : "commit style",
+        "doc" : "NORMAL, REVERSE or HIGHLIGHT.",
+        "insert" : "commit type: ${1:HIGHLIGHT}",
+        "label" : "commit type"
+      },
+      {
+        "detail" : "create and check out a branch",
+        "doc" : "",
+        "insert" : "branch ${1:feature}",
+        "label" : "branch"
+      },
+      {
+        "detail" : "branch with lane order",
+        "doc" : "",
+        "insert" : "branch ${1:feature} order: ${2:1}",
+        "label" : "branch order"
+      },
+      {
+        "detail" : "switch branch",
+        "doc" : "",
+        "insert" : "checkout ${1:main}",
+        "label" : "checkout"
+      },
+      {
+        "detail" : "switch branch",
+        "doc" : "",
+        "insert" : "switch ${1:main}",
+        "label" : "switch"
+      },
+      {
+        "detail" : "merge into current branch",
+        "doc" : "",
+        "insert" : "merge ${1:feature}",
+        "label" : "merge"
+      },
+      {
+        "detail" : "merge with options",
+        "doc" : "",
+        "insert" : "merge ${1:feature} id: \"${2:id}\" tag: \"${3:v1.0}\"",
+        "label" : "merge tag"
+      },
+      {
+        "detail" : "cherry-pick a commit",
+        "doc" : "",
+        "insert" : "cherry-pick id: \"${1:id}\"",
+        "label" : "cherry-pick"
+      }
+    ],
+    "journey" : [
+      {
+        "detail" : "journey title",
+        "doc" : "",
+        "insert" : "title ${1:Title}",
+        "label" : "title"
+      },
+      {
+        "detail" : "group tasks",
+        "doc" : "",
+        "insert" : "section ${1:Section}",
+        "label" : "section"
+      },
+      {
+        "detail" : "task: score (1–5): actors",
+        "doc" : "",
+        "insert" : "${1:Task}: ${2:5}: ${3:Me}",
+        "label" : "task"
+      }
+    ],
+    "kanban" : [
+      {
+        "detail" : "card",
+        "doc" : "",
+        "insert" : "${1:id}[${2:Task}]",
+        "label" : "card"
+      },
+      {
+        "detail" : "card metadata",
+        "doc" : "",
+        "insert" : "@{ assigned: '${1:name}', priority: '${2:High}' }",
+        "label" : "@{ }"
+      }
+    ],
+    "mindmap" : [
+      {
+        "detail" : "circle",
+        "doc" : "",
+        "insert" : "root((${1:Topic}))",
+        "label" : "root((circle))"
+      },
+      {
+        "detail" : "square",
+        "doc" : "",
+        "insert" : "${1:id}[${2:text}]",
+        "label" : "id[square]"
+      },
+      {
+        "detail" : "rounded square",
+        "doc" : "",
+        "insert" : "${1:id}(${2:text})",
+        "label" : "id(rounded)"
+      },
+      {
+        "detail" : "bang",
+        "doc" : "",
+        "insert" : "${1:id}))${2:text}((",
+        "label" : "id))bang(("
+      },
+      {
+        "detail" : "cloud",
+        "doc" : "",
+        "insert" : "${1:id})${2:text}(",
+        "label" : "id)cloud("
+      },
+      {
+        "detail" : "hexagon",
+        "doc" : "",
+        "insert" : "${1:id}{{${2:text}}}",
+        "label" : "id{{hexagon}}"
+      },
+      {
+        "detail" : "node icon",
+        "doc" : "",
+        "insert" : "::icon(${1:fa fa-book})",
+        "label" : "::icon"
+      },
+      {
+        "detail" : "node class",
+        "doc" : "",
+        "insert" : ":::${1:className}",
+        "label" : ":::class"
+      }
+    ],
+    "packet" : [
+      {
+        "detail" : "bit range",
+        "doc" : "",
+        "insert" : "${1:0}-${2:15}: \"${3:Field}\"",
+        "label" : "field"
+      }
+    ],
+    "pie" : [
+      {
+        "detail" : "slice",
+        "doc" : "",
+        "insert" : "\"${1:label}\" : ${2:42}",
+        "label" : "slice"
+      },
+      {
+        "detail" : "print values",
+        "doc" : "",
+        "insert" : "showData",
+        "label" : "showData"
+      },
+      {
+        "detail" : "chart title",
+        "doc" : "",
+        "insert" : "title ${1:Title}",
+        "label" : "title"
+      }
+    ],
+    "quadrant" : [
+      {
+        "detail" : "chart title",
+        "doc" : "",
+        "insert" : "title ${1:Title}",
+        "label" : "title"
+      },
+      {
+        "detail" : "x axis labels",
+        "doc" : "",
+        "insert" : "x-axis ${1:Low} --> ${2:High}",
+        "label" : "x-axis"
+      },
+      {
+        "detail" : "y axis labels",
+        "doc" : "",
+        "insert" : "y-axis ${1:Low} --> ${2:High}",
+        "label" : "y-axis"
+      },
+      {
+        "detail" : "top right",
+        "doc" : "",
+        "insert" : "quadrant-1 ${1:Label}",
+        "label" : "quadrant-1"
+      },
+      {
+        "detail" : "top left",
+        "doc" : "",
+        "insert" : "quadrant-2 ${1:Label}",
+        "label" : "quadrant-2"
+      },
+      {
+        "detail" : "bottom left",
+        "doc" : "",
+        "insert" : "quadrant-3 ${1:Label}",
+        "label" : "quadrant-3"
+      },
+      {
+        "detail" : "bottom right",
+        "doc" : "",
+        "insert" : "quadrant-4 ${1:Label}",
+        "label" : "quadrant-4"
+      },
+      {
+        "detail" : "data point",
+        "doc" : "",
+        "insert" : "${1:Point}: [${2:0.5}, ${3:0.5}]",
+        "label" : "point"
+      }
+    ],
+    "radar" : [
+      {
+        "detail" : "axis",
+        "doc" : "",
+        "insert" : "axis ${1:a}[\"${2:A}\"]",
+        "label" : "axis"
+      },
+      {
+        "detail" : "curve",
+        "doc" : "",
+        "insert" : "curve ${1:c}[\"${2:Series}\"]{${3:1, 2, 3}}",
+        "label" : "curve"
+      },
+      {
+        "detail" : "scale maximum",
+        "doc" : "",
+        "insert" : "max ${1:10}",
+        "label" : "max"
+      },
+      {
+        "detail" : "scale minimum",
+        "doc" : "",
+        "insert" : "min ${1:0}",
+        "label" : "min"
+      }
+    ],
+    "requirement" : [
+      {
+        "detail" : "requirement",
+        "doc" : "risk: low, medium, high. verifymethod: analysis, inspection, test, demonstration.",
+        "insert" : "requirement ${1:name} {\n\tid: ${2:1}\n\ttext: ${3:text}\n\trisk: ${4:medium}\n\tverifymethod: ${5:test}\n}",
+        "label" : "requirement"
+      },
+      {
+        "detail" : "requirement",
+        "doc" : "risk: low, medium, high. verifymethod: analysis, inspection, test, demonstration.",
+        "insert" : "functionalRequirement ${1:name} {\n\tid: ${2:1}\n\ttext: ${3:text}\n\trisk: ${4:medium}\n\tverifymethod: ${5:test}\n}",
+        "label" : "functionalRequirement"
+      },
+      {
+        "detail" : "requirement",
+        "doc" : "risk: low, medium, high. verifymethod: analysis, inspection, test, demonstration.",
+        "insert" : "interfaceRequirement ${1:name} {\n\tid: ${2:1}\n\ttext: ${3:text}\n\trisk: ${4:medium}\n\tverifymethod: ${5:test}\n}",
+        "label" : "interfaceRequirement"
+      },
+      {
+        "detail" : "requirement",
+        "doc" : "risk: low, medium, high. verifymethod: analysis, inspection, test, demonstration.",
+        "insert" : "performanceRequirement ${1:name} {\n\tid: ${2:1}\n\ttext: ${3:text}\n\trisk: ${4:medium}\n\tverifymethod: ${5:test}\n}",
+        "label" : "performanceRequirement"
+      },
+      {
+        "detail" : "requirement",
+        "doc" : "risk: low, medium, high. verifymethod: analysis, inspection, test, demonstration.",
+        "insert" : "physicalRequirement ${1:name} {\n\tid: ${2:1}\n\ttext: ${3:text}\n\trisk: ${4:medium}\n\tverifymethod: ${5:test}\n}",
+        "label" : "physicalRequirement"
+      },
+      {
+        "detail" : "requirement",
+        "doc" : "risk: low, medium, high. verifymethod: analysis, inspection, test, demonstration.",
+        "insert" : "designConstraint ${1:name} {\n\tid: ${2:1}\n\ttext: ${3:text}\n\trisk: ${4:medium}\n\tverifymethod: ${5:test}\n}",
+        "label" : "designConstraint"
+      },
+      {
+        "detail" : "element",
+        "doc" : "",
+        "insert" : "element ${1:name} {\n\ttype: ${2:simulation}\n\tdocref: ${3:ref}\n}",
+        "label" : "element"
+      },
+      {
+        "detail" : "relationship",
+        "doc" : "contains, copies, derives, satisfies, verifies, refines, traces",
+        "insert" : "${1:a} - ${2:satisfies} -> ${3:b}",
+        "label" : "relationship"
+      }
+    ],
+    "sankey" : [
+      {
+        "detail" : "flow",
+        "doc" : "One flow: source,target,value.",
+        "insert" : "${1:Source},${2:Target},${3:10}",
+        "label" : "row"
+      }
+    ],
+    "sequence" : [
+      {
+        "detail" : "declare participant",
+        "doc" : "Declaring fixes the order of participants.",
+        "insert" : "participant ${1:A}",
+        "label" : "participant"
+      },
+      {
+        "detail" : "participant with alias",
+        "doc" : "",
+        "insert" : "participant ${1:A} as ${2:Alice}",
+        "label" : "participant as"
+      },
+      {
+        "detail" : "declare actor",
+        "doc" : "Like a participant, drawn as a stick figure.",
+        "insert" : "actor ${1:A}",
+        "label" : "actor"
+      },
+      {
+        "detail" : "actor with alias",
+        "doc" : "",
+        "insert" : "actor ${1:A} as ${2:Alice}",
+        "label" : "actor as"
+      },
+      {
+        "detail" : "create on message",
+        "doc" : "",
+        "insert" : "create participant ${1:B}",
+        "label" : "create participant"
+      },
+      {
+        "detail" : "destroy after message",
+        "doc" : "",
+        "insert" : "destroy ${1:B}",
+        "label" : "destroy"
+      },
+      {
+        "detail" : "note",
+        "doc" : "",
+        "insert" : "Note right of ${1:A}: ${2:text}",
+        "label" : "Note right of"
+      },
+      {
+        "detail" : "note",
+        "doc" : "",
+        "insert" : "Note left of ${1:A}: ${2:text}",
+        "label" : "Note left of"
+      },
+      {
+        "detail" : "note spanning participants",
+        "doc" : "",
+        "insert" : "Note over ${1:A},${2:B}: ${3:text}",
+        "label" : "Note over"
+      },
+      {
+        "detail" : "loop block",
+        "doc" : "",
+        "insert" : "loop ${1:Every minute}\n\t$0\nend",
+        "label" : "loop"
+      },
+      {
+        "detail" : "alternatives",
+        "doc" : "",
+        "insert" : "alt ${1:condition}\n\t$2\nelse ${3:otherwise}\n\t$0\nend",
+        "label" : "alt"
+      },
+      {
+        "detail" : "alternative branch",
+        "doc" : "",
+        "insert" : "else ${1:condition}",
+        "label" : "else"
+      },
+      {
+        "detail" : "optional block",
+        "doc" : "",
+        "insert" : "opt ${1:condition}\n\t$0\nend",
+        "label" : "opt"
+      },
+      {
+        "detail" : "parallel block",
+        "doc" : "",
+        "insert" : "par ${1:first}\n\t$2\nand ${3:second}\n\t$0\nend",
+        "label" : "par"
+      },
+      {
+        "detail" : "parallel branch",
+        "doc" : "",
+        "insert" : "and ${1:label}",
+        "label" : "and"
+      },
+      {
+        "detail" : "critical region",
+        "doc" : "",
+        "insert" : "critical ${1:action}\n\t$2\noption ${3:failure}\n\t$0\nend",
+        "label" : "critical"
+      },
+      {
+        "detail" : "critical alternative",
+        "doc" : "",
+        "insert" : "option ${1:label}",
+        "label" : "option"
+      },
+      {
+        "detail" : "break out of sequence",
+        "doc" : "",
+        "insert" : "break ${1:condition}\n\t$0\nend",
+        "label" : "break"
+      },
+      {
+        "detail" : "highlight background",
+        "doc" : "",
+        "insert" : "rect rgb(${1:191, 223, 255})\n\t$0\nend",
+        "label" : "rect"
+      },
+      {
+        "detail" : "group participants",
+        "doc" : "",
+        "insert" : "box ${1:Aqua} ${2:Group}\n\tparticipant $0\nend",
+        "label" : "box"
+      },
+      {
+        "detail" : "start activation",
+        "doc" : "",
+        "insert" : "activate ${1:A}",
+        "label" : "activate"
+      },
+      {
+        "detail" : "end activation",
+        "doc" : "",
+        "insert" : "deactivate ${1:A}",
+        "label" : "deactivate"
+      },
+      {
+        "detail" : "number messages",
+        "doc" : "",
+        "insert" : "autonumber",
+        "label" : "autonumber"
+      },
+      {
+        "detail" : "diagram title",
+        "doc" : "",
+        "insert" : "title ${1:Title}",
+        "label" : "title"
+      },
+      {
+        "detail" : "message",
+        "doc" : "",
+        "insert" : "${1:A}->>${2:B}: ${3:message}",
+        "label" : "message"
+      },
+      {
+        "detail" : "close block",
+        "doc" : "",
+        "insert" : "end",
+        "label" : "end"
+      }
+    ],
+    "state" : [
+      {
+        "detail" : "start \/ end state",
+        "doc" : "",
+        "insert" : "[*]",
+        "label" : "[*]"
+      },
+      {
+        "detail" : "start transition",
+        "doc" : "",
+        "insert" : "[*] --> ${1:State}",
+        "label" : "[*] -->"
+      },
+      {
+        "detail" : "end transition",
+        "doc" : "",
+        "insert" : "${1:State} --> [*]",
+        "label" : "--> [*]"
+      },
+      {
+        "detail" : "labelled transition",
+        "doc" : "",
+        "insert" : "${1:A} --> ${2:B} : ${3:event}",
+        "label" : "transition"
+      },
+      {
+        "detail" : "state with description",
+        "doc" : "",
+        "insert" : "state \"${1:description}\" as ${2:S1}",
+        "label" : "state as"
+      },
+      {
+        "detail" : "state description",
+        "doc" : "",
+        "insert" : "${1:S1} : ${2:description}",
+        "label" : "description"
+      },
+      {
+        "detail" : "composite state",
+        "doc" : "",
+        "insert" : "state ${1:Composite} {\n\t$0\n}",
+        "label" : "state { }"
+      },
+      {
+        "detail" : "fork",
+        "doc" : "",
+        "insert" : "state ${1:fork_state} <<fork>>",
+        "label" : "<<fork>>"
+      },
+      {
+        "detail" : "join",
+        "doc" : "",
+        "insert" : "state ${1:join_state} <<join>>",
+        "label" : "<<join>>"
+      },
+      {
+        "detail" : "choice",
+        "doc" : "",
+        "insert" : "state ${1:choice} <<choice>>",
+        "label" : "<<choice>>"
+      },
+      {
+        "detail" : "multi-line note",
+        "doc" : "",
+        "insert" : "note right of ${1:State}\n\t${2:text}\nend note",
+        "label" : "note"
+      },
+      {
+        "detail" : "one-line note",
+        "doc" : "",
+        "insert" : "note left of ${1:State} : ${2:text}",
+        "label" : "note :"
+      },
+      {
+        "detail" : "concurrency separator",
+        "doc" : "Separates concurrent regions inside a composite state.",
+        "insert" : "--",
+        "label" : "--"
+      },
+      {
+        "detail" : "layout direction",
+        "doc" : "",
+        "insert" : "direction ${1:LR}",
+        "label" : "direction"
+      },
+      {
+        "detail" : "define style class",
+        "doc" : "",
+        "insert" : "classDef ${1:name} fill:${2:#f9f},stroke:${3:#333}",
+        "label" : "classDef"
+      },
+      {
+        "detail" : "apply style class",
+        "doc" : "",
+        "insert" : "class ${1:State} ${2:className}",
+        "label" : "class"
+      }
+    ],
+    "timeline" : [
+      {
+        "detail" : "timeline title",
+        "doc" : "",
+        "insert" : "title ${1:Title}",
+        "label" : "title"
+      },
+      {
+        "detail" : "group periods",
+        "doc" : "",
+        "insert" : "section ${1:Era}",
+        "label" : "section"
+      },
+      {
+        "detail" : "period with event",
+        "doc" : "",
+        "insert" : "${1:2026} : ${2:Event}",
+        "label" : "period"
+      },
+      {
+        "detail" : "another event for the period above",
+        "doc" : "",
+        "insert" : ": ${1:Event}",
+        "label" : ": event"
+      }
+    ],
+    "treemap" : [
+      {
+        "detail" : "leaf with value",
+        "doc" : "",
+        "insert" : "\"${1:Leaf}\": ${2:10}",
+        "label" : "leaf"
+      },
+      {
+        "detail" : "parent node",
+        "doc" : "",
+        "insert" : "\"${1:Section}\"",
+        "label" : "section"
+      }
+    ],
+    "xychart" : [
+      {
+        "detail" : "chart title",
+        "doc" : "",
+        "insert" : "title \"${1:Title}\"",
+        "label" : "title"
+      },
+      {
+        "detail" : "categorical x axis",
+        "doc" : "",
+        "insert" : "x-axis [${1:a, b, c}]",
+        "label" : "x-axis"
+      },
+      {
+        "detail" : "numeric x axis",
+        "doc" : "",
+        "insert" : "x-axis \"${1:label}\" ${2:0} --> ${3:100}",
+        "label" : "x-axis range"
+      },
+      {
+        "detail" : "y axis",
+        "doc" : "",
+        "insert" : "y-axis \"${1:label}\" ${2:0} --> ${3:100}",
+        "label" : "y-axis"
+      },
+      {
+        "detail" : "bar series",
+        "doc" : "",
+        "insert" : "bar [${1:1, 2, 3}]",
+        "label" : "bar"
+      },
+      {
+        "detail" : "line series",
+        "doc" : "",
+        "insert" : "line [${1:1, 2, 3}]",
+        "label" : "line"
+      }
+    ]
+  },
+  "templates" : [
+    {
+      "detail" : "flowchart",
+      "doc" : "Nodes connected by edges. Direction TD\/TB (top-down), BT, LR or RL.",
+      "insert" : "flowchart ${1:TD}\n\tA[${2:Start}] --> B{${3:Decision}}\n\tB -->|Yes| C[${4:Done}]\n\tB -->|No| D[${5:Retry}]$0",
+      "label" : "flowchart"
+    },
+    {
+      "detail" : "flowchart (classic)",
+      "doc" : "The original keyword for flowcharts; same syntax as `flowchart`.",
+      "insert" : "graph ${1:LR}\n\tA[${2:Start}] --> B[${3:End}]$0",
+      "label" : "graph"
+    },
+    {
+      "detail" : "sequence diagram",
+      "doc" : "Messages exchanged between participants over time.",
+      "insert" : "sequenceDiagram\n\tparticipant A as ${1:Alice}\n\tparticipant B as ${2:Bob}\n\tA->>B: ${3:Hello}\n\tB-->>A: ${4:Hi}$0",
+      "label" : "sequenceDiagram"
+    },
+    {
+      "detail" : "class diagram",
+      "doc" : "UML classes with members and relationships.",
+      "insert" : "classDiagram\n\tclass Animal {\n\t\t+${1:String} ${2:name}\n\t\t+${3:speak}() void\n\t}\n\tAnimal <|-- ${4:Dog}$0",
+      "label" : "classDiagram"
+    },
+    {
+      "detail" : "state diagram",
+      "doc" : "States and transitions; [*] is the start or end state.",
+      "insert" : "stateDiagram-v2\n\t[*] --> Idle\n\tIdle --> Running : ${1:start}\n\tRunning --> Idle : ${2:stop}\n\tRunning --> [*]$0",
+      "label" : "stateDiagram-v2"
+    },
+    {
+      "detail" : "entity relationship",
+      "doc" : "Entities with attributes and crow's-foot relationships.",
+      "insert" : "erDiagram\n\tCUSTOMER ||--o{ ORDER : ${1:places}\n\tCUSTOMER {\n\t\tstring ${2:name}\n\t}\n\tORDER {\n\t\tint ${3:id} PK\n\t}$0",
+      "label" : "erDiagram"
+    },
+    {
+      "detail" : "user journey",
+      "doc" : "Tasks per section, each with a score 1–5 and the actors involved.",
+      "insert" : "journey\n\ttitle ${1:My working day}\n\tsection ${2:Go to work}\n\t\t${3:Make tea}: ${4:5}: ${5:Me}$0",
+      "label" : "journey"
+    },
+    {
+      "detail" : "gantt chart",
+      "doc" : "Tasks on a timeline, grouped into sections.",
+      "insert" : "gantt\n\ttitle ${1:Project}\n\tdateFormat YYYY-MM-DD\n\tsection ${2:Phase 1}\n\t\t${3:Design} :a1, ${4:2026-01-01}, ${5:7d}\n\t\t${6:Build} :after a1, ${7:10d}$0",
+      "label" : "gantt"
+    },
+    {
+      "detail" : "pie chart",
+      "doc" : "Slices given as \"label\" : value. Add showData to print the values.",
+      "insert" : "pie title ${1:Pets}\n\t\"${2:Dogs}\" : ${3:40}\n\t\"${4:Cats}\" : ${5:35}$0",
+      "label" : "pie"
+    },
+    {
+      "detail" : "quadrant chart",
+      "doc" : "Points plotted on two axes split into four quadrants; coordinates 0–1.",
+      "insert" : "quadrantChart\n\ttitle ${1:Reach and engagement}\n\tx-axis ${2:Low Reach} --> ${3:High Reach}\n\ty-axis ${4:Low Engagement} --> ${5:High Engagement}\n\tquadrant-1 ${6:Expand}\n\tquadrant-2 ${7:Promote}\n\tquadrant-3 ${8:Re-evaluate}\n\tquadrant-4 ${9:Improve}\n\t${10:Campaign A}: [${11:0.3}, ${12:0.6}]$0",
+      "label" : "quadrantChart"
+    },
+    {
+      "detail" : "requirement diagram",
+      "doc" : "SysML requirements, elements and their relationships.",
+      "insert" : "requirementDiagram\n\trequirement test_req {\n\t\tid: 1\n\t\ttext: ${1:the test text}\n\t\trisk: ${2:high}\n\t\tverifymethod: ${3:test}\n\t}\n\telement test_entity {\n\t\ttype: ${4:simulation}\n\t}\n\ttest_entity - satisfies -> test_req$0",
+      "label" : "requirementDiagram"
+    },
+    {
+      "detail" : "git graph",
+      "doc" : "Commits, branches and merges. The default branch is main.",
+      "insert" : "gitGraph\n\tcommit\n\tbranch develop\n\tcheckout develop\n\tcommit id: \"${1:feature}\"\n\tcheckout main\n\tmerge develop$0",
+      "label" : "gitGraph"
+    },
+    {
+      "detail" : "mind map",
+      "doc" : "A tree defined by indentation; the first node is the root.",
+      "insert" : "mindmap\n\troot((${1:Topic}))\n\t\t${2:Idea A}\n\t\t\t${3:Detail}\n\t\t${4:Idea B}$0",
+      "label" : "mindmap"
+    },
+    {
+      "detail" : "timeline",
+      "doc" : "Time periods, each with one or more events.",
+      "insert" : "timeline\n\ttitle ${1:History}\n\t${2:2025} : ${3:Event}\n\t${4:2026} : ${5:Event}$0",
+      "label" : "timeline"
+    },
+    {
+      "detail" : "sankey (beta)",
+      "doc" : "Flows as CSV rows: source,target,value.",
+      "insert" : "sankey-beta\n\n${1:Source},${2:Target},${3:10}$0",
+      "label" : "sankey-beta"
+    },
+    {
+      "detail" : "xy chart (beta)",
+      "doc" : "Bar and line series over a categorical or numeric x-axis.",
+      "insert" : "xychart-beta\n\ttitle \"${1:Sales}\"\n\tx-axis [${2:jan, feb, mar}]\n\ty-axis \"${3:Revenue}\" 0 --> ${4:100}\n\tbar [${5:30, 60, 90}]\n\tline [${6:30, 60, 90}]$0",
+      "label" : "xychart-beta"
+    },
+    {
+      "detail" : "block diagram (beta)",
+      "doc" : "Blocks laid out in columns, with full control over placement.",
+      "insert" : "block-beta\n\tcolumns ${1:3}\n\t${2:a} ${3:b} ${4:c}$0",
+      "label" : "block-beta"
+    },
+    {
+      "detail" : "packet (beta)",
+      "doc" : "Bit ranges of a network packet.",
+      "insert" : "packet-beta\n\t0-15: \"${1:Source Port}\"\n\t16-31: \"${2:Destination Port}\"$0",
+      "label" : "packet-beta"
+    },
+    {
+      "detail" : "architecture (beta)",
+      "doc" : "Services and groups connected at their sides (L, R, T, B).",
+      "insert" : "architecture-beta\n\tgroup api(cloud)[${1:API}]\n\tservice db(database)[${2:Database}] in api\n\tservice server(server)[${3:Server}] in api\n\tdb:L -- R:server$0",
+      "label" : "architecture-beta"
+    },
+    {
+      "detail" : "kanban board",
+      "doc" : "Columns with indented task cards.",
+      "insert" : "kanban\n\ttodo[${1:Todo}]\n\t\tt1[${2:Write docs}]\n\tdone[${3:Done}]$0",
+      "label" : "kanban"
+    },
+    {
+      "detail" : "radar chart (beta)",
+      "doc" : "Curves plotted over several axes.",
+      "insert" : "radar-beta\n\taxis a[\"${1:A}\"], b[\"${2:B}\"], c[\"${3:C}\"]\n\tcurve x[\"${4:Series}\"]{${5:1, 2, 3}}$0",
+      "label" : "radar-beta"
+    },
+    {
+      "detail" : "treemap (beta)",
+      "doc" : "Nested rectangles sized by value, nesting by indentation.",
+      "insert" : "treemap-beta\n\t\"${1:Root}\"\n\t\t\"${2:Leaf A}\": ${3:10}\n\t\t\"${4:Leaf B}\": ${5:20}$0",
+      "label" : "treemap-beta"
+    }
+  ]
+}
